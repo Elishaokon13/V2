@@ -95,7 +95,7 @@ const CoreStrength = () => {
               />
             </figure>
             <p>
-              Combined, <strong>Kromatika’s dApp provides you more</strong>, if
+              Combined, <strong>Limitless Network Finance’s dApp provides you more</strong>, if
               not the best value for every trade you make !
             </p>
           </li>
@@ -166,15 +166,15 @@ const CoreStrength = () => {
             </figure>
           </div>
           <div className="card__body">
-            <span className="card__title">High utility $KROM token</span>
+            <span className="card__title">High utility $LNT token</span>
             <span className="card__content">
-              $KROM is a utility token which is used for paying limit order fees
+              $LNT is a utility token which is used for paying limit order fees
               and end-to-end usage of gasless mode (optional feature, coming
               very soon).
               <br />
               <br />
-              For every limit order, the Kromatika protocol user only pays a
-              service fee in $KROM, of the amount traded.
+              For every limit order, the Limitless Network Finance protocol user only pays a
+              service fee in $LNT, of the amount traded.
             </span>
           </div>
         </div>

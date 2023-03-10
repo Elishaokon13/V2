@@ -35,11 +35,11 @@ const Token = () => {
 					</figure>
 				</motion.div>
 				<div className='token__content'>
-					<h3>What is $KROM?</h3>
+					<h3>What is $LNT?</h3>
 					<p>
-						$KROM is the utility and governance token of the Kromatika protocol. It is
-						a non-mintable ERC20 token deployed on Ethereum with a fixed total
-						supply of 100 million tokens. The tokenomic model of $KROM is
+					    The Limitless Network protocol employs $LNT as its governance and utility token. It is
+						a non-mintable ERC20 token deployed on BNB Blockchain with a fixed total
+						supply of 100 million tokens. The tokenomic model of $LNT is
 						deflationary by design since the tokens are being &nbsp;
 						<Link href='https://app.uniswap.org/#/pool/154097?chain=mainnet'>
 							<a target='_blank' rel='noopener noreferrer'>
@@ -48,14 +48,14 @@ const Token = () => {
 						</Link>
 						<br />
 						<br />
-						$KROM is the token that pays the service fee to unlock the limit
+						$LNT is the token that pays the service fee to unlock the limit
 						order feature of Kromatika protocol. This means that by using
 						KROM tokens, you not only get access to cost efficient limit
 						orders on the DEX, but you will also get LP fees on every trade
 						thanks to the innovative approach to providing liquidity.
 						<br />
 						<br />
-						$KROM token is also used as a governance token within the Kromatika DAO.
+						$LNT token is also used as a governance token within the Kromatika DAO.
 						<br />
 						Kromatika DAO has the possibility to add more utilities for the KROM token through 
 						governance proposals.
@@ -83,9 +83,9 @@ const Token = () => {
 						</p>
 						<p>
 							A buyback from the DAO treasury was performed at the end of Q1 2022, for a total value
-							of 2 million $KROM.</p>	
+							of 2 million $LNT.</p>	
 						<p>
-						LP ownership token is burned, meaning $KROM is burned with every sell trade.</p>
+						LP ownership token is burned, meaning $LNT is burned with every sell trade.</p>
 					</span>
 						</div>
 				</motion.div>
@@ -102,7 +102,7 @@ const Token = () => {
 							<span className='card__title'>Vesting</span>
 							<span className='card__content'>
 						<p>
-							12.000.000 $KROM have been locked on Unicrypt, or 12% of the
+							12.000.000 $LNT have been locked on Unicrypt, or 12% of the
 							total supply, with an average vesting of 2 years and 3 months.
 							This vesting occurred in March 2022.
 							Half of the vested tokens are allocated to the DAO treasury.
@@ -132,7 +132,7 @@ const Token = () => {
 							</Link>
 						</p>
 						<p>
-							7 million $KROM tokens are kept in the DAO treasury, managed by the Kromatika DAO.
+							7 million $LNT tokens are kept in the DAO treasury, managed by the Kromatika DAO.
 						</p>
 					</span>
 						</div>
@@ -155,16 +155,16 @@ const Token = () => {
 					</figure>
 				</motion.div>
 				<div className='token__content'>
-					<h3>How to buy $KROM?</h3>
+					<h3>How to buy $LNT?</h3>
 					<p>
-						The easiest way to purchase $KROM, is by using Kromatika Swap
+						The easiest way to purchase $LNT, is by using Kromatika Swap
 						Aggregator: &nbsp;
 						<Link href='https://app.kromatika.finance/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789'>
 							<a target='_blank' rel='noopener noreferrer'>
 								launch the dapp
 							</a>
 						</Link>
-						&nbsp; and connect your wallet. No $KROM is required to use the swap
+						&nbsp; and connect your wallet. No $LNT is required to use the swap
 						aggregator. The swap aggregator is working on Ethereum mainnet,
 						Optimism, Arbitrum and Polygon.
 					</p>
@@ -183,7 +183,7 @@ const Token = () => {
 								/>
 							</figure>
 							<p>
-								How to buy $KROM using the Ethereum mainnet (via &nbsp;
+								How to buy $LNT using the Ethereum mainnet (via &nbsp;
 								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FXHJSQgGUDFPHD7VBeXho%2FKrom_guide_-_Mainnet.pdf?alt=media&token=23e4fb30-b570-46ff-b242-97f67506a50b'>
 									<a target='_blank' rel='noopener noreferrer'>
 										Mainnet Ethereum
@@ -209,7 +209,7 @@ const Token = () => {
 										Optimism
 									</a>
 								</Link>
-								&nbsp; to & buy $KROM using metamask?
+								&nbsp; to & buy $LNT using metamask?
 							</p>
 						</li>
 						<li>
@@ -229,7 +229,7 @@ const Token = () => {
 										Arbitrum
 									</a>
 								</Link>
-								&nbsp; to & buy $KROM using metamask?
+								&nbsp; to & buy $LNT using metamask?
 							</p>
 						</li>
 						<li>
@@ -249,7 +249,7 @@ const Token = () => {
 										Polygon
 									</a>
 								</Link>
-								&nbsp; to & buy $KROM using metamask? (guide coming soon)
+								&nbsp; to & buy $LNT using metamask? (guide coming soon)
 							</p>
 						</li>
 					</ul>
@@ -262,7 +262,7 @@ const Token = () => {
 							rel='noopener noreferrer'
 							whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
 							whileTap={{ scale: 0.9 }}>
-							Buy $KROM
+							Buy $LNT
 						</motion.a>
 					</Link>
 				</div>

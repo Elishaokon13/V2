@@ -8,7 +8,7 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Launching the Kromatika protocol on Ethereum Mainnet (audit completion).',
+				goal: 'Launching the Limitless Network Finance protocol on Ethereum Mainnet (audit completion).',
 			},
 			{
 				status: true,
@@ -24,11 +24,11 @@ const quarters = [
 			},
 			{
 				status: true,
-				goal: 'Launching the Kromatika protocol on Arbitrum Layer2 network.',
+				goal: 'Launching the Limitless Network Finance protocol on Arbitrum Layer2 network.',
 			},
 			{
 				status: true,
-				goal: 'Launching new kromatika.finance website.',
+				goal: 'Launching new Limitless Network Finance.finance website.',
 			},
 		],
 	},
@@ -37,7 +37,7 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Launching the Kromatika protocol on the Polygon network.',
+				goal: 'Launching the Limitless Network Finance protocol on the Polygon network.',
 			},
 			{
 				status: false,
@@ -45,7 +45,7 @@ const quarters = [
 			},
 			{
 				status: true,
-				goal: 'Adding gasless market swap feature to Kromatika protocol.',
+				goal: 'Adding gasless market swap feature to Limitless Network Finance protocol.',
 			},
 			{
 				status: true,
@@ -57,7 +57,7 @@ const quarters = [
 			},
 			{
 				status: true,
-				goal: 'Kromatika v2 (new features, modern UI, hybrid DEX).',
+				goal: 'Limitless Network Finance v2 (new features, modern UI, hybrid DEX).',
 			},
 		],
 	},
@@ -66,7 +66,7 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Kromatika DAO governance launch',
+				goal: 'Limitless Network Finance DAO governance launch',
 			},
 			{
 				status: false,
@@ -110,9 +110,9 @@ const BUIDLPlan = () => {
 				<h2 className='section-title'>BUIDL Plan</h2>
 			</motion.div>
 			<p className={'buidl-plan'}>
-				Kromatika DAO tasks are visible on Dework - the ultimate Web3 project management tool.
-				All tasks can be undertaken by any web3 contributor, and incentivized in $KROM.
-				You can find the Dework dashboard <a href='https://app.dework.xyz/kromatika-dao'> <strong>here</strong>.</a>
+				Limitless Network Finance DAO tasks are visible on Dework - the ultimate Web3 project management tool.
+				All tasks can be undertaken by any web3 contributor, and incentivized in $LNT.
+				You can find the Dework dashboard <a href='https://app.dework.xyz/Limitless Network Finance-dao'> <strong>here</strong>.</a>
 			</p>
 			<div className='roadmap container'>
 				{quarters.map((quarter, i) => (

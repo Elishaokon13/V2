@@ -39,12 +39,12 @@ export default function Seo({ title, description, keywords, author, meta }) {
 }
 
 Seo.defaultProps = {
-	title: 'Kromatika Finance | Next Generation DEX Trading',
+	title: 'Limitless Network Finance | Advanced DEX Trading Experience',
 	description:
-		'Kromatika Finance is the Next Generation DEX Trading, enabling gasless limit trading, liquidity farming',
+		'Limitless Network Finance is an Advanced DEX Trading platform, enabling gasless limit trading and staking across BNB, Polygon and Fantom Blockchain.',
 	keywords:
 		'Decentralized Finance, DeFi, DEX, DEX Trading Tools, limit orders, swap, stake, decentralized services, chainlink keepers, gasless limit trading, liquidity farming, uniswap, DAO Governance, blockchain, Ethereum, decentralized applications, Web3 ecosystem, smart contracts, solidity, truffle, hardhat',
-	author: 'Kromatika Finance',
+	author: 'Limitless Network Finance',
 	lang: `en`,
 	meta: [],
 };

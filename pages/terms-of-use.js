@@ -2,24 +2,24 @@ export default function Home() {
     return (
         <div className='terms-of-use'>
             <article>
-                <h1>1. Welcome to Kromatika.Finance(“we,” “us,” or “our”)the informational resource for Kromatika Protocol, as defined below.</h1>
+                <h1>1. Welcome to Limitless Network Finance.Finance(“we,” “us,” or “our”)the informational resource for Limitless Network Finance Protocol, as defined below.</h1>
                 <p>Effective Date: November 6th, 2022</p>
-                <p> Kromatika.Finance provides information and resources about the fundamentals of the decentralized 
-                    non-custodial liquidity protocol called the Kromatika Protocol (the “Kromatika Protocol” or “Protocol”). 
-                    Kromatika.Finance is not one of the available access points to the Kromatika Protocol.
+                <p> Limitless Network Finance.Finance provides information and resources about the fundamentals of the decentralized 
+                    non-custodial liquidity protocol called the Limitless Network Finance Protocol (the “Limitless Network Finance Protocol” or “Protocol”). 
+                    Limitless Network.Finance is not one of the available access points to the Limitless Network Protocol.
                 </p>
                 <p> ARBITRATION NOTICE: THESE TERMS (“TERMS”) CONTAIN AN ARBITRATION CLAUSE BELOW. EXCEPT FOR CERTAIN
                     TYPES OF DISPUTES MENTIONED IN THAT ARBITRATION CLAUSE, YOU AND WE AGREE THAT ANY DISPUTES RELATING
                     TO THE SERVICES (AS DEFINED BELOW) WILL BE RESOLVED BY MANDATORY BINDING ARBITRATION, AND YOU WAIVE
                     ANY RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE IN A CLASS-ACTION LAWSUIT OR CLASS-WIDE
                     ARBITRATION.You are entering into a binding Agreement. BY ACCESSING OR USING OUR SERVICES, WHICH
-                    INCLUDE OUR VARIOUS WEBSITES, INCLUDING, WITHOUT LIMITATION, Kromatika.Finance (AND ANY RESPECTIVE
+                    INCLUDE OUR VARIOUS WEBSITES, INCLUDING, WITHOUT LIMITATION, Limitless Network.Finance (AND ANY RESPECTIVE
                     SUBDOMAINS); APPLICATIONS (COLLECTIVELY WITH ANY MATERIALS AND SERVICES AVAILABLE THEREIN, AND
                     SUCCESSOR WEBSITE(S) OR APPLICATION(S) THERETO, THE “SITE”), AND OTHER SERVICES THAT LINK TO THESE
                     TERMS, AS WELL AS ANY INFORMATION, TEXT, LINKS, GRAPHICS, PHOTOS, AUDIO, VIDEO, OR OTHER MATERIALS
                     STORED, RETRIEVED OR APPEARING THEREON, WHETHER ACCESSED THROUGH THE SITE OR OTHERWISE
                     (COLLECTIVELY, THE “SERVICES”), YOU ARE ENTERING INTO A BINDING AGREEMENT WITH US THAT INCLUDES
-                    THESE TERMS, Kromatika.Finance - PRIVACY POLICY (FOUND HERE), AND OTHER POLICIES REFERENCED HEREIN
+                    THESE TERMS, Limitless Network Finance.Finance - PRIVACY POLICY (FOUND HERE), AND OTHER POLICIES REFERENCED HEREIN
                     (COLLECTIVELY, THE “AGREEMENT”).
                 </p>
                 <p> To the extent that there is a conflict between these Terms and any applicable additional terms,
@@ -33,7 +33,7 @@ export default function Home() {
                     requirement, you must not access or use the Site or the Services.
                 </p>
                 <p>
-                    As a condition to accessing or using the Site or Interface, you represent and warrant to Kromatika.finance the following:
+                    As a condition to accessing or using the Site or Interface, you represent and warrant to Limitless Network Finance.finance the following:
                 </p>
                 <ul>
                     <li>
@@ -82,7 +82,7 @@ export default function Home() {
                         judgment, directive or other requirements, guidance, or guideline issued 
                         by any domestic or foreign federal, provincial or state, municipal, local or 
                         other governmental, regulatory, judicial or administrative authority having 
-                        jurisdiction over Kromatika.finance or you as otherwise duly enacted, 
+                        jurisdiction over Limitless Network Finance.finance or you as otherwise duly enacted, 
                         enforceable by law, the common law or equity (collectively, "Applicable 
                         Laws"); or (b) contribute to or facilitate any illegal activity.
                     </li>
@@ -95,19 +95,19 @@ export default function Home() {
                     the Terms if you continue to use the Services, including by accessing the Site. We may, at any time,
                     and without liability to you, modify or discontinue all or part of the Services (including access to
                     the Services via any third-party links). You may contact us with questions about your use of the
-                    Services at contact@kromatika.finance. When you communicate with us electronically, you consent to
+                    Services at contact@Limitless Network.finance. When you communicate with us electronically, you consent to
                     receive communications from us electronically. You should review the Terms from time to time to
                     ensure that you understand the terms and conditions that apply to you when you access or use the
                     Site.
                 </p>
             </article>
             <article>
-                <h2>Kromatika.Finance is provided as an informational resource.</h2>
-                <p>Kromatika.Finance provides resources about the fundamentals of the 
-                    Kromatika Protocol, which is a fully decentralized, community governed 
+                <h2>Limitless Network Finance.Finance is provided as an informational resource.</h2>
+                <p>Limitless Network.Finance provides resources about the fundamentals of the 
+                    Limitless Network Protocol, which is a fully decentralized, community governed 
                     protocol deployed on multiple blockchain networks and systems, and 
-                    provides information about the wider Kromatika ecosystem, governance, 
-                    community, and various interfaces and integrations to the Kromatika 
+                    provides information about the wider Limitless Network Finance ecosystem, governance, 
+                    community, and various interfaces and integrations to the Limitless Network 
                     Protocol. All information provided in connection with your access and use 
                     of the Site and the Services is for informational purposes only. You should 
                     not take, or refrain from taking, any action based on any information 
@@ -126,24 +126,24 @@ export default function Home() {
                     responsible or liable, directly or indirectly, for any damage or 
                     loss caused or alleged to be caused by or in connection with use of or reliance on any 
                     such content, goods, or services available on or through any such site or
-                    resource. Because the Site provides information about the Kromatika 
+                    resource. Because the Site provides information about the Limitless Network 
                     Protocol, these Terms also provide some information about the use of the 
                     Protocol. This information is not intended to be comprehensive or address 
                     all aspects of the Protocol. There is additional documentation on the Site 
                     about the functioning of the Protocol or its ecosystem or community.
                 </p>
 
-                <h2>We are software developers in the Kromatika Protocol ecosystem.</h2>
+                <h2>We are software developers in the Limitless Network Protocol ecosystem.</h2>
                 <p>
                     It is important to understand that neither we nor any affiliated entity is a party to any
                     transaction on
-                    the blockchain networks underlying the Kromatika Protocol; we do not have possession, custody or
+                    the blockchain networks underlying the Limitless Network Protocol; we do not have possession, custody or
                     control
                     over any cryptoassets appearing on the Services; and we do not have possession, custody, or control
                     over
                     any user’s funds. Further, we do not store, send, or receive any cryptoassets. You understand that
                     when
-                    you interact with any Kromatika Protocol smart contracts, you retain control over your cryptoassets
+                    you interact with any Limitless Network Protocol smart contracts, you retain control over your cryptoassets
                     at
                     all times. The private key associated with the wallet address from which you transfer cryptoassets
                     or
@@ -165,16 +165,16 @@ export default function Home() {
                 </p>
 
                 <h2>
-                    The Kromatika Protocol is deployed on multiple blockchain-based networks, and we are not responsible
+                    The Limitless Network Protocol is deployed on multiple blockchain-based networks, and we are not responsible
                     for
                     the operation of such networks.
                 </h2>
-                <p> The software underlying blockchain networks on which the Kromatika Protocol is deployed, including,
+                <p> The software underlying blockchain networks on which the Limitless Network Protocol is deployed, including,
                     for
                     example, the Ethereum blockchain, is open source, which means that anyone can use, utilize, and
                     build on
                     top of it. By using the Services, you acknowledge and agree (i) that we are not responsible for the
-                    operation of the blockchain-based software and networks underlying the Kromatika Protocol, (ii) that
+                    operation of the blockchain-based software and networks underlying the Limitless Network Protocol, (ii) that
                     there exists no guarantee of the functionality, security, or availability of that software and
                     networks,
                     and (iii) that the underlying blockchain-based networks are subject to sudden changes in operating
@@ -201,8 +201,8 @@ export default function Home() {
                     cryptoassets. We do not receive any fees for any transactions, the Services, or the Site.
                 </p>
 
-                <h2>Kromatika Ecosystem and Community contributors are independent.</h2>
-                <p>All community contributors to the ecosystem around the Kromatika Protocol are independent of us, and
+                <h2>Limitless Network Ecosystem and Community contributors are independent.</h2>
+                <p>All community contributors to the ecosystem around the Limitless Network Protocol are independent of us, and
                     we
                     will not have and do not assume any liability or responsibility for their actions or omissions.
                 </p>
@@ -213,7 +213,7 @@ export default function Home() {
                     technology.
                 </p>
 
-                <p>Transactions on the Kromatika Protocol rely on smart contracts stored on various blockchains,
+                <p>Transactions on the Limitless Network Protocol rely on smart contracts stored on various blockchains,
                     cryptographic tokens generated by the smart contracts, and other nascent software, applications and
                     systems that interact with blockchain-based networks. These technologies are experimental,
                     speculative,
@@ -248,7 +248,7 @@ export default function Home() {
                     any network, or apps like Discord, or MetaMask, and we make no representations regarding the content
                     or
                     accuracy of any third-party services or materials. The user interface available at
-                    app.kromatika.finance
+                    app.Limitless Network.finance
                     is hosted on a third-party service -- IPFS -- and can only be accessed through this third party&apos;s
                     website. We are not responsible for any action or omission taken by IPFS as it pertains to the user
                     interface or otherwise. The use and access of any third-party products or services, including
@@ -275,7 +275,7 @@ export default function Home() {
                     challenges, among other things. We disclaim any ongoing obligation to notify you of all of the
                     potential
                     risks of using and accessing our Services. You agree to (defined below) accept these risks and agree
-                    that you will not seek to hold any Kromatika.Finance Party responsible for any
+                    that you will not seek to hold any Limitless Network.Finance Party responsible for any
                     consequent
                     losses.
                 </p>
@@ -367,9 +367,9 @@ export default function Home() {
                     We own all rights in the Services. We own any and all right, title, and interest in and to the
                     Services
                     including, without limitation, any and all copyrights in and to any content, code, data, or other
-                    materials that you may access or use on or through the Services; however, the code for the Kromatika
+                    materials that you may access or use on or through the Services; however, the code for the Limitless Network
                     Protocol
-                    and the front-end interface (app.kromatika.finance) deployed on IPFS is open-sourced. Except as
+                    and the front-end interface (app.Limitless Network.finance) deployed on IPFS is open-sourced. Except as
                     expressly set
                     forth herein, your use of or access to the Services does not grant you any ownership or other rights
                     therein.
@@ -461,11 +461,11 @@ export default function Home() {
                     We make no representations or warranties. THE SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE”
                     BASIS. WE AND OUR PARENTS, SUBSIDIARIES, AFFILIATES, RELATED COMPANIES, OFFICERS, DIRECTORS,
                     EMPLOYEES,
-                    AGENTS, REPRESENTATIVES, PARTNERS, AND LICENSORS (COLLECTIVELY, THE “Kromatika.Finance INDEMNIFIED
+                    AGENTS, REPRESENTATIVES, PARTNERS, AND LICENSORS (COLLECTIVELY, THE “Limitless Network.Finance INDEMNIFIED
                     PARTIES”)
                     MAKE NO GUARANTEES OF ANY KIND IN CONNECTION WITH THE SERVICES. TO THE MAXIMUM EXTENT PERMITTED
                     UNDER
-                    APPLICABLE LAW, THE Kromatika.Finance INDEMNIFIED PARTIES DISCLAIM ALL WARRANTIES AND CONDITIONS,
+                    APPLICABLE LAW, THE Limitless Network.Finance INDEMNIFIED PARTIES DISCLAIM ALL WARRANTIES AND CONDITIONS,
                     WHETHER
                     EXPRESS OR IMPLIED, OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT AND
                     DISCLAIM ALL RESPONSIBILITY AND LIABILITY FOR:
@@ -486,7 +486,7 @@ export default function Home() {
                         THAT
                         MAY AFFECT YOUR PHYSICAL SENSES AND/OR PHYSICAL CONDITION. FURTHER, YOU EXPRESSLY ACKNOWLEDGE
                         THAT
-                        THE Kromatika.Finance INDEMNIFIED PARTIES ARE NOT RESPONSIBLE FOR LOSS OR DAMAGE CAUSED BY
+                        THE Limitless Network.Finance INDEMNIFIED PARTIES ARE NOT RESPONSIBLE FOR LOSS OR DAMAGE CAUSED BY
                         ANOTHER
                         USER’S CONDUCT, UNAUTHORIZED ACTORS, OR ANY UNAUTHORIZED ACCESS TO OR USE OF THE SERVICES.
                     </li>
@@ -497,7 +497,7 @@ export default function Home() {
                     </li>
                 </ul>
                 <p>
-                    Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL ANY Kromatika.Finance
+                    Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL ANY Limitless Network.Finance
                     INDEMNIFIED PARTY BE LIABLE TO YOU FOR ANY LOSS, DAMAGE, OR INJURY OF ANY KIND INCLUDING ANY DIRECT,
                     INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE LOSSES OR DAMAGES, OR DAMAGES
                     FOR
@@ -511,7 +511,7 @@ export default function Home() {
                     TO ANY THE SERVICES.
                 </p>
                 <p>
-                    IN ADDITION TO THE FOREGOING, NO Kromatika.Finance INDEMNIFIED PARTY SHALL BE LIABLE FOR ANY
+                    IN ADDITION TO THE FOREGOING, NO Limitless Network.Finance INDEMNIFIED PARTY SHALL BE LIABLE FOR ANY
                     DAMAGES
                     CAUSED
                     IN WHOLE OR IN PART BY: (A) USER ERROR, SUCH AS FORGOTTEN PASSWORDS OR INCORRECTLY CONSTRUCTED SMART
@@ -532,18 +532,18 @@ export default function Home() {
                     CONTRACT,
                     INDEMNIFICATION, TORT, STRICT LIABILITY, STATUTE, OR ANY OTHER LEGAL OR EQUITABLE THEORY, AND
                     WHETHER OR
-                    NOT THE Kromatika.Finance INDEMNIFIED PARTIES HAVE BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH
+                    NOT THE Limitless Network.Finance INDEMNIFIED PARTIES HAVE BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH
                     DAMAGE.
                 </p>
                 <p>
-                    IN NO EVENT WILL THE Kromatika.Finance INDEMNIFIED PARTIES’ CUMULATIVE LIABILITY TO YOU OR ANY
+                    IN NO EVENT WILL THE Limitless Network.Finance INDEMNIFIED PARTIES’ CUMULATIVE LIABILITY TO YOU OR ANY
                     OTHER
                     USER,
                     FROM ALL CAUSES OF ACTION AND ALL THEORIES OF LIABILITY EXCEED ONE THOUSAND U.S. DOLLARS (U.S.
                     $1,000.00).
                 </p>
                 <p>
-                    UNDER NO CIRCUMSTANCES SHALL ANY Kromatika.Finance INDEMNIFIED PARTY BE REQUIRED TO DELIVER TO YOU
+                    UNDER NO CIRCUMSTANCES SHALL ANY Limitless Network.Finance INDEMNIFIED PARTY BE REQUIRED TO DELIVER TO YOU
                     ANY
                     VIRTUAL CURRENCY AS DAMAGES, MAKE SPECIFIC PERFORMANCE, OR ANY OTHER REMEDY. IF YOU WOULD BASE YOUR
                     CALCULATIONS OF DAMAGES IN ANY WAY ON THE VALUE OF VIRTUAL CURRENCY, YOU AND WE AGREE THAT THE
@@ -554,17 +554,17 @@ export default function Home() {
                     Some jurisdictions do not allow the exclusion or limitation of certain warranties and liabilities
                     provided in this section; accordingly, some of the above limitations and disclaimers may not apply
                     to
-                    you. To the extent applicable law does not permit Kromatika.Finance Indemnified Parties to
+                    you. To the extent applicable law does not permit Limitless Network.Finance Indemnified Parties to
                     disclaim
                     certain
-                    warranties or limit certain liabilities, the extent of Kromatika.Finance Indemnified Parties’
+                    warranties or limit certain liabilities, the extent of Limitless Network.Finance Indemnified Parties’
                     liability and
                     the scope of any such warranties will be as permitted under applicable law.
                 </p>
             </article>
             <article>
                 <h1>8. Indemnification</h1>
-                <p>You agree to indemnify, defend, and hold harmless the Kromatika.Finance Indemnified Parties from
+                <p>You agree to indemnify, defend, and hold harmless the Limitless Network.Finance Indemnified Parties from
                     any
                     claim or
                     demand, including reasonable attorneys’ fees, made by any third party due to or arising out of: (a)
@@ -652,7 +652,7 @@ export default function Home() {
                     OR OTHER EQUITABLE RELIEF OF ANY KIND, SUCH AS ANY COURT OR OTHER ACTION THAT MAY INTERFERE WITH OR
                     PREVENT THE DEVELOPMENT OR EXPLOITATION OF THE SERVICES, OR ANY OTHER WEBSITE, APPLICATION, CONTENT,
                     SUBMISSION, PRODUCT, SERVICE, OR INTELLECTUAL PROPERTY OWNED, LICENSED, USED OR CONTROLLED BY ANY
-                    Kromatika.Finance
+                    Limitless Network.Finance
                     INDEMNIFIED PARTY.
                 </p>
             </article>
@@ -700,7 +700,7 @@ export default function Home() {
                 <p>
                     The Agreement (including, without limitation, these Terms) may be assigned without your prior
                     consent to
-                    any Kromatika.Finance Indemnified Party, or to its successors in the interest of any business
+                    any Limitless Network.Finance Indemnified Party, or to its successors in the interest of any business
                     associated
                     with the Services provided by us. You may not assign or transfer any rights or obligations under the
                     Agreement without our prior written consent.
@@ -710,7 +710,7 @@ export default function Home() {
                 <h1>14. Entire Agreement</h1>
                 <p>
 
-                    The Agreement (including, without limitation, these Terms, and the Kromatika.Finance Privacy
+                    The Agreement (including, without limitation, these Terms, and the Limitless Network.Finance Privacy
                     Policy)
                     and any
                     policies or operating rules posted by us on the Services constitute the entire agreement and

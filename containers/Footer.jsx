@@ -18,7 +18,7 @@ const menuItems = [
 ];
 
 const secondaryLinks = [
-  { label: "Github", to: "https://github.com/Kromatika-Finance/" },
+  { label: "Github", to: "https://github.com/Limitless Network Finance/" },
   { label: "Docs", to: "https://docs.kromatika.finance/" },
   {
     label: "Bug Bounty",

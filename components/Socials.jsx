@@ -7,13 +7,13 @@ import {
 } from 'react-icons/fa';
 
 const socialItems = [
-	{ href: 'https://discord.gg/U32meU7emP', icon: <FaDiscord /> },
-	{ href: 'https://t.me/kromatika_finance', icon: <FaTelegramPlane /> },
-	{ href: 'https://twitter.com/KromatikaFi', icon: <FaTwitter /> },
-	{
-		href: 'https://www.instagram.com/kromatika.finance/',
-		icon: <FaInstagram />,
-	},
+	{ href: 'https://discord.gg/H4GEW4q7SJ', icon: <FaDiscord /> },
+	{ href: 'https://t.me/limitless_Network_Token', icon: <FaTelegramPlane /> },
+	{ href: 'https://twitter.com/cryptohighrev', icon: <FaTwitter /> },
+	// {
+	// 	href: 'https://www.instagram.com/kromatika.finance/',
+	// 	icon: <FaInstagram />,
+	// },
 ];
 
 const Socials = ({ isSlider }) => {

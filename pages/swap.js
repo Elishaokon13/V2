@@ -6,7 +6,9 @@ export default function Swap() {
     return (
         <div>
             <Navbar />
+            <div className="justify-center items-center flex flex-col">
             <BridgesApp />   // add the widget to the page
+            </div>
         </div>
     );
 }

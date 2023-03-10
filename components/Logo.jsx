@@ -12,7 +12,7 @@ const Logo = ({ path }) => {
 					<Image src={logo} alt='' />
 				</figure>
 				<div className='logo__text'>
-					<span>Kromatika</span>
+					<span>Limitless Network</span>
 					<span>Finance</span>
 				</div>
 			</div>

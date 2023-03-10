@@ -12,13 +12,13 @@
   padding: 1.5rem 3rem;
   cursor: pointer;
   text-align: center;
-  color: #eae9f3;
+  color: #030303;
   border-radius: 12px;
-  -webkit-box-shadow: 0 0 4px #7000ff;
-  box-shadow: 0 0 4px #7000ff;
+  -webkit-box-shadow: 0 0 4px #87CEEB;
+  box-shadow: 0 0 4px #87CEEB;
 
   &-outline {
-    border: 1px solid #8235e5;
+    border: 1px solid #87CEEB;
     background: transparent;
   }
 
@@ -28,11 +28,11 @@
       linear,
       left top,
       left bottom,
-      from(#7024d0),
-      to(#640ad7)
+      from(#04b2f7),
+      to(#87CEEB)
     );
-    background: -o-linear-gradient(top, #7024d0 0%, #640ad7 100%);
-    background: linear-gradient(180deg, #7024d0 0%, #640ad7 100%);
+    background: -o-linear-gradient(top, #04b2f7 0%, #87CEEB 100%);
+    background: linear-gradient(180deg, #04b2f7 0%, #87CEEB 100%);
   }
 
   &-block {

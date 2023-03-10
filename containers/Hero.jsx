@@ -4,10 +4,9 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section id="section-hero" className="hero">
-      <h1 className="hero__title">Kromatika DEX</h1>
+      <h1 className="hero__title">Limitless Network Finance</h1>
       <p className="hero__subtitle">
-        Makes DEX trading simple, accessible, and affordable on Ethereum L1 and
-        L2’s.
+      Enables easy, inclusive, and cost-effective DEX trading across different chains.
       </p>
       <div className="btn-group">
         <Link passHref={true} href="https://app.kromatika.finance/#/pool">
@@ -27,7 +26,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
             whileTap={{ scale: 0.9 }}
           >
-            Discover $KROM
+            Discover $LNT
           </motion.a>
         </Link>
       </div>

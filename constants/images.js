@@ -17,7 +17,7 @@ import eclipseSmallDark from '../assets/svgs/eclipse_small_dark.svg';
 import eclipseSmallGreen from '../assets/svgs/eclipse_small_green.svg';
 import eclipseSmallSky from '../assets/svgs/eclipse_small_sky.svg';
 import goldLock from '../assets/svgs/gold-lock.svg';
-import logo from '../assets/svgs/logo.svg';
+import logo from '../assets/images/Logo.png';
 import metamaskFoxHorizontal from '../assets/svgs/metamask-horizontal.svg';
 import metamaskLogo from '../assets/svgs/metamask-logo.svg';
 import optimismLogo from '../assets/svgs/optimism-logo.svg';

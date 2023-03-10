@@ -28,7 +28,7 @@ const menuItems = [
 const cta = [
 	{
 		label: 'Launch Dapp',
-		to: '#',
+		to: '/swap',
 		isExternal: true,
 		className: 'btn btn-solid',
 	},

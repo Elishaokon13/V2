@@ -2,6 +2,7 @@ import { Navbar } from "../components";
 import { BridgesApp } from '@brgx/widget';   // import the widget
 import { Footer } from "../containers";
 import { Blur, Navbar, Seo, Socials } from '../components';
+import { Eclipses } from '../containers';
 
 
 export default function Swap() {
@@ -16,6 +17,7 @@ export default function Swap() {
             </div>
             </Blur>
             <Footer />
+            <Socials isSlider={true} />
         </section>
     );
 }

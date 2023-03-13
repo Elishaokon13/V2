@@ -9,14 +9,8 @@ export default function Swap() {
     return (
         <section className="hero">
             <Seo />
-			<Eclipses />
-			<Navbar />
-			<Blur>
             <div className="justify-center items-center mt-20 ml-20 flex flex-col">
             <BridgesApp /> 
-            </div>
-            </Blur>
-            <Footer />
             <Socials isSlider={true} />
         </section>
     );

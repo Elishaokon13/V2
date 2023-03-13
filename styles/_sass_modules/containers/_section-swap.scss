@@ -5,7 +5,7 @@
   
     &__title {
       font-family: "Montserrat", sans-serif;
-      font-size: 20px;
+      font-size: 10px;
       font-weight: bold;
       line-height: 49px;
       margin-top: 20px;
@@ -76,7 +76,7 @@
   
     @include for-tablet-landscape-up {
       &__title {
-        font-size: 100px;
+        font-size: 10px;
         font-weight: bold;
         line-height: 85px;
         margin-bottom: 24px;

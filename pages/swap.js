@@ -12,6 +12,7 @@ export default function Swap() {
             <div className="justify-center items-center mt-20 ml-20 flex flex-col">
             <BridgesApp /> 
             <Socials isSlider={true} />
+            </div>
         </section>
     );
 }

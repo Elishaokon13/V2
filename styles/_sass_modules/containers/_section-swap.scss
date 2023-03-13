@@ -17,7 +17,7 @@
     &__subtitle,
     &__content {
       font-family: "Montserrat", sans-serif;
-      font-size: 14px;
+      font-size: 24px;
       font-weight: 400;
       font-style: normal;
       line-height: 18px;
@@ -76,7 +76,7 @@
   
     @include for-tablet-landscape-up {
       &__title {
-        font-size: 10px;
+        font-size: 30px;
         font-weight: bold;
         line-height: 85px;
         margin-bottom: 24px;

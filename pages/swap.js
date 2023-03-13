@@ -3,12 +3,11 @@ import { BridgesApp } from '@brgx/widget';
 export default function Swap() {
     return (
         <section className="hero">
-            <div className="justify-center items-center mt-20 ml-20 flex flex-col">
-                <h1 className="text-4xl font-bold">Limitless Network Swap</h1>
-                <p className="text-2xl mt-4">Swap your tokens</p>
-            </div>
-            <div className="mt-20 ml-20">
-            <BridgesApp />
+
+            <h1 className="hero__title">Limitless Network Swap</h1>
+            <p className="hero__subtitle">Swap your tokens</p>
+            <div className="mt-20 ml-20 text-center justify-center">
+                <BridgesApp />
             </div>
         </section>
     );

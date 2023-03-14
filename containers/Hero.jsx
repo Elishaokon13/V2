@@ -9,7 +9,7 @@ const Hero = () => {
       Enables easy, inclusive, and cost-effective DEX trading across different chains.
       </p>
       <div className="btn-group">
-        <Link passHref={true} href="/swap">
+        <Link passHref={true} href="https://app-limitless-network.vercel.app/">
           <motion.a
             className="btn btn-solid"
             target="_blank"

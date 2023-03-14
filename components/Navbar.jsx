@@ -28,7 +28,7 @@ const menuItems = [
 const cta = [
 	{
 		label: 'Launch Dapp',
-		to: '/swap',
+		to: 'https://app-limitless-network.vercel.app/',
 		isExternal: true,
 		className: 'btn btn-solid',
 	},

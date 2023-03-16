@@ -34,11 +34,10 @@ const CoreStrength = () => {
               />
             </figure>
             <p>
-              the <strong>best value for your swaps</strong> by comparing
-              multiple Dexs, picking the best rates for you.
+              the optimal swap value for your needs by comparing rates across various Dexs and selecting the most favorable rates for you
             </p>
           </li>
-          <li>
+          {/* <li>
             <figure>
               <Image
                 src={coinKromatika}
@@ -52,7 +51,7 @@ const CoreStrength = () => {
               <strong>reduced slippage</strong> using multiple pools in our
               MetaDEX Aggregator, to execute your trade.
             </p>
-          </li>
+          </li> */}
           <li>
             <figure>
               <Image
@@ -69,7 +68,7 @@ const CoreStrength = () => {
               </strong>
             </p>
           </li>
-          <li>
+          {/* <li>
             <figure>
               <Image
                 src={coinKromatika}
@@ -83,7 +82,7 @@ const CoreStrength = () => {
               <strong>additional LP fees</strong> on your filled limit orders
               (FELO). Up to 9% depending on volatility of trading pair.
             </p>
-          </li>
+          </li> */}
           <li>
             <figure>
               <Image
@@ -113,14 +112,10 @@ const CoreStrength = () => {
           <div className="card__body">
             <span className="card__title">Secure audited smart contracts</span>
             <span className="card__content">
-              The dapp was audited in multiple iterations in both internal and
-              external testing environments. The external testing was performed
-              by CertiK, Mythx and OpenZeppelin.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor.
               <br />
               <br />
-              Kromatika ranked in top 10% on the CertiK leaderboard, with an
-              overall score of 87/100, security scored 88/100 and market &
-              community 82/100. See full report &nbsp;
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor. &nbsp;
               <Link
                 passHref={true}
                 href="https://www.certik.com/projects/kromatika"
@@ -133,7 +128,7 @@ const CoreStrength = () => {
           </div>
         </div>
 
-        <div className="card">
+        {/* <div className="card">
           <div className="card__header">
             <figure>
               <Image src={charts} alt="" />
@@ -157,7 +152,7 @@ const CoreStrength = () => {
               </Link>
             </span>
           </div>
-        </div>
+        </div> */}
 
         <div className="card">
           <div className="card__header">
@@ -168,13 +163,10 @@ const CoreStrength = () => {
           <div className="card__body">
             <span className="card__title">High utility $LNT token</span>
             <span className="card__content">
-              $LNT is a utility token which is used for paying limit order fees
-              and end-to-end usage of gasless mode (optional feature, coming
-              very soon).
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget semper velit. Etiam at sem purus. Fusce ac est euismod, rutrum turpis nec, vestibulum nibh. Integer sollicitudin odio ut quam gravida, nec tincidunt odio posuere. Nullam euismod sagittis augue, in fermentum orci ultricies at. Aenean bibendum laoreet est, eget accumsan erat iaculis vel.
               <br />
               <br />
-              For every limit order, the Limitless Network Finance protocol user only pays a
-              service fee in $LNT, of the amount traded.
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor.
             </span>
           </div>
         </div>

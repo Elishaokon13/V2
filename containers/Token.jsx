@@ -37,10 +37,10 @@ const Token = () => {
 				<div className='token__content'>
 					<h3>What is $LNT?</h3>
 					<p>
-					    The Limitless Network protocol employs $LNT as its governance and utility token. It is
-						a non-mintable ERC20 token deployed on BNB Blockchain with a fixed total
-						supply of 100 million tokens. The tokenomic model of $LNT is
-						deflationary by design since the tokens are being &nbsp;
+						The Limitless Network protocol employs $LNT as its governance and utility token.
+						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra
+						ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae
+						dolor eleifend euismod. &nbsp;
 						<Link href='https://app.uniswap.org/#/pool/154097?chain=mainnet'>
 							<a target='_blank' rel='noopener noreferrer'>
 								burnt.
@@ -48,17 +48,12 @@ const Token = () => {
 						</Link>
 						<br />
 						<br />
-						$LNT is the token that pays the service fee to unlock the limit
-						order feature of Kromatika protocol. This means that by using
-						KROM tokens, you not only get access to cost efficient limit
-						orders on the DEX, but you will also get LP fees on every trade
-						thanks to the innovative approach to providing liquidity.
+						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae dolor eleifend euismod..
 						<br />
 						<br />
-						$LNT token is also used as a governance token within the Kromatika DAO.
+						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae dolor eleifend euismod.
 						<br />
-						Kromatika DAO has the possibility to add more utilities for the KROM token through 
-						governance proposals.
+						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae dolor eleifend euismod.
 					</p>
 				</div>
 			</div>
@@ -70,73 +65,67 @@ const Token = () => {
 					whileInView={{ opacity: 1 }}
 					transition={{ duration: 1 }}
 					className='card'>
-						<figure>
-							<Image src={circulatingSupply} alt='' />
-						</figure>
-						<div className='card__overlay'>
-							<span className='card__title'>Circulating Supply</span>
-							<span className='card__content'>
-						<p>
-							Initially 60 million tokens were fair lauched on
-							Uniswap V3 mainnet. 10 million were fair launched on Arbitrum and
-							another 10 million on Optimism.
-						</p>
-						<p>
-							A buyback from the DAO treasury was performed at the end of Q1 2022, for a total value
-							of 2 million $LNT.</p>	
-						<p>
-						LP ownership token is burned, meaning $LNT is burned with every sell trade.</p>
-					</span>
-						</div>
+					<figure>
+						<Image src={circulatingSupply} alt='' />
+					</figure>
+					<div className='card__overlay'>
+						<span className='card__title'>Circulating Supply</span>
+						<span className='card__content'>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+							</p>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+							</p>
+							<p>
+							Curabitur eleifend mauris sed orci fermentum euismod. Nulla facilisi.
+							</p>
+						</span>
+					</div>
 				</motion.div>
 
-				<motion.div 
+				<motion.div
 					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }} 
-					transition={{ duration: 1 }} 
+					whileInView={{ opacity: 1 }}
+					transition={{ duration: 1 }}
 					className='card'>
-						<figure>
-							<Image src={coinsStash} alt='' />
-						</figure>
-						<div className='card__overlay'>
-							<span className='card__title'>Vesting</span>
-							<span className='card__content'>
-						<p>
-							12.000.000 $LNT have been locked on Unicrypt, or 12% of the
-							total supply, with an average vesting of 2 years and 3 months.
-							This vesting occurred in March 2022.
-							Half of the vested tokens are allocated to the DAO treasury.
-						</p>
-					</span>
-						</div>
-					</motion.div>
-					<motion.div
-						initial={{ opacity: 0 }}
-						whileInView={{ opacity: 1 }}
-						transition={{ duration: 1 }} 
-						className='card'>
-						<figure>
-							<Image src={goldLock} alt='' />
-						</figure>
-						<div className='card__overlay'>
-							<span className='card__title'>Increased security</span>
-							<span className='card__content'>
-						<p>
-							The proof of liquidity (position) was burnt, for better security
-							and in order to prevent rug pull hacks. You can consult the
-							transaction &nbsp;
-							<Link href='https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'>
-								<a target='_blank' rel='noopener noreferrer'>
-									here.
-								</a>
-							</Link>
-						</p>
-						<p>
-							7 million $LNT tokens are kept in the DAO treasury, managed by the Kromatika DAO.
-						</p>
-					</span>
-						</div>
-					</motion.div>
+					<figure>
+						<Image src={coinsStash} alt='' />
+					</figure>
+					<div className='card__overlay'>
+						<span className='card__title'>Vesting</span>
+						<span className='card__content'>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+							</p>
+						</span>
+					</div>
+				</motion.div>
+				<motion.div
+					initial={{ opacity: 0 }}
+					whileInView={{ opacity: 1 }}
+					transition={{ duration: 1 }}
+					className='card'>
+					<figure>
+						<Image src={goldLock} alt='' />
+					</figure>
+					<div className='card__overlay'>
+						<span className='card__title'>Increased security</span>
+						<span className='card__content'>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+								<Link href='https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'>
+									<a target='_blank' rel='noopener noreferrer'>
+										here.
+									</a>
+								</Link>
+							</p>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+							</p>
+						</span>
+					</div>
+				</motion.div>
 			</div>
 			{/* HOW TO BUY UNDER TOKEN SECTION */}
 			<div className='token'>

@@ -1,8 +1,8 @@
 import dexguru from '../assets/images/dexguru.png';
 import dextlogo from '../assets/images/dextlogo.png';
-import ethereum from '../assets/images/ethereum.png';
+import BSC from '../assets/images/BSC.png';
 import vulkania from '../assets/images/vulkania.png';
-import arbitrum from '../assets/svgs/arbitrum.svg';
+import FTM from '../assets/svgs/FTM.svg';
 import celer from '../assets/svgs/celer.svg';
 import cg2 from '../assets/svgs/cg2.svg';
 import chainlink from '../assets/svgs/chainlink.svg';
@@ -18,10 +18,10 @@ export const brands = {
 	chainlink,
 	cg2,
 	celer,
-	arbitrum,
+	FTM,
 	dexguru,
 	dextlogo,
-	ethereum,
+	BSC,
 	vulkania,
 	cmc,
 };

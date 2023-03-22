@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@brgx/widget": "^1.0.7",
+    "@thirdweb-dev/react": "^3.10.3",
+    "@thirdweb-dev/sdk": "^3.10.3",
+    "ethers": "5",
     "framer-motion": "^6.3.11",
     "next": "^12.1.6",
     "nextjs-google-analytics": "^2.2.2",

@@ -72,13 +72,13 @@ const Token = () => {
 						<span className='card__title'>Circulating Supply</span>
 						<span className='card__content'>
 							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+								Total Supply: 1,000,000,000
 							</p>
 							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+								Blockchain: BNB Chain
 							</p>
 							<p>
-							Curabitur eleifend mauris sed orci fermentum euismod. Nulla facilisi.
+								Token Symbol: $LNT
 							</p>
 						</span>
 					</div>
@@ -93,10 +93,23 @@ const Token = () => {
 						<Image src={coinsStash} alt='' />
 					</figure>
 					<div className='card__overlay'>
-						<span className='card__title'>Vesting</span>
+						<span className='card__title'>Token Taxes</span>
 						<span className='card__content'>
+							<b>
+								Buy Tax: 6%
+							</b>
 							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+								2% Marketing
+								2% Development
+								2% liquidity
+							</p>
+							<b>
+								Sell Tax: 8%
+							</b>
+							<p>
+								3% Marketing
+								3% Development
+								2% liquidity
 							</p>
 						</span>
 					</div>
@@ -113,7 +126,7 @@ const Token = () => {
 						<span className='card__title'>Increased security</span>
 						<span className='card__content'>
 							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
 								<Link href='https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'>
 									<a target='_blank' rel='noopener noreferrer'>
 										here.
@@ -121,7 +134,7 @@ const Token = () => {
 								</Link>
 							</p>
 							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
 							</p>
 						</span>
 					</div>
@@ -146,21 +159,19 @@ const Token = () => {
 				<div className='token__content'>
 					<h3>How to buy $LNT?</h3>
 					<p>
-						The easiest way to purchase $LNT, is by using Kromatika Swap
+						The easiest way to purchase $LNT, is by using Limitless Network Swap
 						Aggregator: &nbsp;
-						<Link href='https://app.kromatika.finance/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789'>
+						<Link href='/swap?inputCurrency=ETH&outputCurrency=0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789'>
 							<a target='_blank' rel='noopener noreferrer'>
 								launch the dapp
 							</a>
 						</Link>
 						&nbsp; and connect your wallet. No $LNT is required to use the swap
-						aggregator. The swap aggregator is working on Ethereum mainnet,
-						Optimism, Arbitrum and Polygon.
+						aggregator. The swap aggregator is working on Polygon mainnet,
+						Fantom and BSC.
 					</p>
-					<p>
-						You can consult more detailed instructions using the below links:
-					</p>
-					<ul>
+
+					{/* <ul>
 						<li>
 							<figure>
 								<Image
@@ -241,10 +252,10 @@ const Token = () => {
 								&nbsp; to & buy $LNT using metamask? (guide coming soon)
 							</p>
 						</li>
-					</ul>
+					</ul> */}
 					<Link
 						passHref={true}
-						href='https://app.kromatika.finance/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789'>
+						href='/swap'>
 						<motion.a
 							className='btn btn-solid'
 							target='_blank'

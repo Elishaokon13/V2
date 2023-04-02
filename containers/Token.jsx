@@ -106,11 +106,13 @@ const Token = () => {
 							<b>
 								Sell Tax: 8%
 							</b>
-							<p>
-								3% Marketing
-								3% Development
-								2% liquidity
-							</p>
+							<ul>
+								<li>
+									3% Marketing
+									3% Development
+									2% liquidity
+								</li>
+							</ul>
 						</span>
 					</div>
 				</motion.div>

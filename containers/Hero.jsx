@@ -22,7 +22,7 @@ const Hero = () => {
         </Link>
         <Link passHref={true} href="#section-token">
           <motion.a
-            className="btn btn-outline text-white"
+            className="btn btn-outline"
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
             whileTap={{ scale: 0.9 }}
           >

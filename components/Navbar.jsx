@@ -11,18 +11,7 @@ const menuItems = [
 	{ icon: '', label: 'BUIDL Plan', to: 'section-roadmap', isExternal: false },
 	{ icon: '', label: 'About', to: 'section-fundamentals', isExternal: false },
 	{ icon: '', label: 'FAQ', to: 'section-faq', isExternal: false },
-	// {
-	// 	icon: '',
-	// 	label: 'Blog',
-	// 	to: 'https://blog.kromatika.finance/',
-	// 	isExternal: true,
-	// },
-	{
-		icon: '',
-		label: 'Docs',
-		to: '#',
-		isExternal: true,
-	},
+	
 ];
 
 const cta = [

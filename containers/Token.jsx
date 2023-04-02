@@ -80,6 +80,7 @@ const Token = () => {
 							<p>
 								Token Symbol: $LNT
 							</p>
+							
 						</span>
 					</div>
 				</motion.div>
@@ -99,11 +100,11 @@ const Token = () => {
 								Buy Tax: 6%
 							</b>
 							<p>
-								2% Marketing
-								2% Development
+								2% Marketing<br/>
+								2% Development<br/>
 								2% liquidity
 							</p>
-							<b>
+							<b className='text-bold mb-1.5'>
 								Sell Tax: 8%
 							</b>
 							<p>
@@ -111,10 +112,11 @@ const Token = () => {
 								3% Development<br/>
 								2% liquidity
 							</p>
+							
 						</span>
 					</div>
 				</motion.div>
-				<motion.div
+				{/* <motion.div
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
 					transition={{ duration: 1 }}
@@ -138,7 +140,7 @@ const Token = () => {
 							</p>
 						</span>
 					</div>
-				</motion.div>
+				</motion.div> */}
 			</div>
 			{/* HOW TO BUY UNDER TOKEN SECTION */}
 			<div className='token'>

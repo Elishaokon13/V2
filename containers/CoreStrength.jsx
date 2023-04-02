@@ -112,10 +112,9 @@ const CoreStrength = () => {
           <div className="card__body">
             <span className="card__title">Secure audited smart contracts</span>
             <span className="card__content">
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor.
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor.
               <br />
               <br />
-              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor. &nbsp;
               <Link
                 passHref={true}
                 href="https://www.certik.com/projects/kromatika"
@@ -165,8 +164,7 @@ const CoreStrength = () => {
             <span className="card__content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget semper velit. Etiam at sem purus. Fusce ac est euismod, rutrum turpis nec, vestibulum nibh. Integer sollicitudin odio ut quam gravida, nec tincidunt odio posuere. Nullam euismod sagittis augue, in fermentum orci ultricies at. Aenean bibendum laoreet est, eget accumsan erat iaculis vel.
               <br />
-              <br />
-              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor.
+              
             </span>
           </div>
         </div>

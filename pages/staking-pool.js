@@ -1,11 +1,7 @@
-import { ConnectWallet } from "@thirdweb-dev/react";
-import { Header } from '../components';
-
-export default function Home() {
+export default function StakingPool() {
   return (
-    <section className="swap">
-        <Header />
-      <ConnectWallet accentColor="#f213a4" colorMode="dark" />
-    </section>
-  );
+    <div className="container">
+      <h1>Staking Pool</h1>
+    </div>
+  )
 }

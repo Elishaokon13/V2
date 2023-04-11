@@ -30,9 +30,9 @@ const Token = () => {
 					whileInView={{ x: 0 }}
 					transition={{ duration: 1 }}
 					className='motion-div'>
-					<figure className='token__figure'>
+					{/* <figure className='token__figure'>
 						<Image src={coinsKromatika} alt='Coins' className='token__img' />
-					</figure>
+					</figure> */}
 				</motion.div>
 				<div className='token__content'>
 					<h3>What is $LNT?</h3>
@@ -47,13 +47,7 @@ const Token = () => {
 							</a>
 						</Link>
 						<br />
-						<br />
-						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae dolor eleifend euismod..
-						<br />
-						<br />
-						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae dolor eleifend euismod.
-						<br />
-						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae dolor eleifend euismod.
+						
 					</p>
 				</div>
 			</div>
@@ -80,7 +74,10 @@ const Token = () => {
 							<p>
 								Token Symbol: $LNT
 							</p>
-							
+							<p>
+								Token name: Limitless Network
+							</p>
+
 						</span>
 					</div>
 				</motion.div>
@@ -97,12 +94,12 @@ const Token = () => {
 						<span className='card__title'>Token Taxes</span>
 						<span className='card__content'>
 							<b>
-								Buy Tax: 6%
+								Buy Tax: 5%
 							</b>
 							<p>
 								2% Marketing<br/>
 								2% Development<br/>
-								2% liquidity
+								1% liquidity
 							</p>
 							<b className='text-bold mb-1.5'>
 								Sell Tax: 8%
@@ -154,9 +151,9 @@ const Token = () => {
 					}}
 					transition={{ duration: 1 }}
 					className='motion-div'>
-					<figure className='token__figure'>
+					{/* <figure className='token__figure'>
 						<Image src={coinKromatika} alt='Coins' className='token__img' />
-					</figure>
+					</figure> */}
 				</motion.div>
 				<div className='token__content'>
 					<h3>How to buy $LNT?</h3>

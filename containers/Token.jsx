@@ -22,26 +22,41 @@ const Token = () => {
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1 }}>
-				<h2 className='section-title'>Protocol Token</h2>
+				<h2 className='section-title'>Our Protocol</h2>
 			</motion.div>
 			<div className='token'>
-				<motion.div
+				{/* <motion.div
 					initial={{ x: -100 }}
 					whileInView={{ x: 0 }}
 					transition={{ duration: 1 }}
 					className='motion-div'>
-					{/* <figure className='token__figure'>
+					 <figure className='token__figure'>
 						<Image src={coinsKromatika} alt='Coins' className='token__img' />
-					</figure> */}
-				</motion.div>
+					</figure>
+				</motion.div> */}
 				<div className='token__content'>
-					<h3>What is $LNT?</h3>
+					<h3>What is Limitless Network?</h3>
 					<p>
 						Limitless network is a decentralized Crypto project with a multi utility infrastructure that enables growth and sustainability in any market condition through scalable mining as well as a automated leverage trading system. &nbsp;
 						
 						<br />
 						
 					</p>
+				</div>
+			</div>
+			<motion.div
+				initial={{ opacity: 0 }}
+				whileInView={{ opacity: 1 }}
+				transition={{ duration: 1 }}>
+				<h2 className='section-title'>Our Protocol</h2>
+			</motion.div>
+			<div className='token'>
+				<div className='token__content'>
+				 <h3> Our Tokenomics</h3>
+					<p>
+						Our tokenomics are designed to reward holders and incentivize the community to grow the project. We have a 5% buy tax and 8% sell tax. 2% of the buy tax is used for marketing and 2% is used for development. 1% of the buy tax is used for liquidity. 3% of the sell tax is used for marketing and 3% is used for development. 2% of the sell tax is used for liquidity.
+						<br />
+					</p>	
 				</div>
 			</div>
 			{/* CARDS UNDER TOKEN SECTION */}
@@ -153,7 +168,7 @@ const Token = () => {
 					<p>
 						The easiest way to purchase $LNT, is by using Limitless Network Swap
 						Aggregator: &nbsp;
-						<Link href='/swap?inputCurrency=ETH&outputCurrency=0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789'>
+						<Link href='/swap'>
 							<a target='_blank' rel='noopener noreferrer'>
 								launch the dapp
 							</a>

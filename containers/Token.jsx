@@ -37,15 +37,8 @@ const Token = () => {
 				<div className='token__content'>
 					<h3>What is $LNT?</h3>
 					<p>
-						The Limitless Network protocol employs $LNT as its governance and utility token.
-						Sed non quam ut sapien iaculis elementum. Sed malesuada purus in odio pharetra
-						ultrices. Nulla facilisi. Maecenas non orci tortor. Suspendisse nec turpis vitae
-						dolor eleifend euismod. &nbsp;
-						<Link href='https://app.uniswap.org/#/pool/154097?chain=mainnet'>
-							<a target='_blank' rel='noopener noreferrer'>
-								burnt.
-							</a>
-						</Link>
+						Limitless network is a decentralized Crypto project with a multi utility infrastructure that enables growth and sustainability in any market condition through scalable mining as well as a automated leverage trading system. &nbsp;
+						
 						<br />
 						
 					</p>

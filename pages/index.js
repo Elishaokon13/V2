@@ -22,9 +22,10 @@ export default function Home() {
 				<Qualities />
 				<Token />
 				<BUIDLPlan />
-				<HowItWorks />
-				{/* <FAQ /> */}
+				{/* <HowItWorks /> */}
 				<Brands />
+				<FAQ />
+				
 			</Blur>
 			<Footer />
 			<Socials isSlider={true} />

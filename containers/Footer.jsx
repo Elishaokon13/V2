@@ -9,26 +9,21 @@ const menuItems = [
   { icon: "", label: "BUIDL Plan", to: "section-roadmap", isExternal: false },
   { icon: "", label: "About", to: "section-fundamentals", isExternal: false },
   { icon: "", label: "FAQ", to: "section-faq", isExternal: false },
-  {
-    icon: "",
-    label: "Blog",
-    to: "https://blog.kromatika.finance/",
-    isExternal: true,
-  },
+  
 ];
 
-const secondaryLinks = [
-  { label: "Github", to: "https://github.com/Limitless Network Finance/" },
-  { label: "Docs", to: "https://docs.kromatika.finance/" },
-  {
-    label: "Bug Bounty",
-    to: "https://docs.google.com/forms/d/e/1FAIpQLSfdqLrw6xovV95Vr1AbSp5kmcpF41xunCN2VbRXTUj6g6PjIQ/viewform",
-  },
-  {
-    label: "Terms Of Use",
-    to: "terms-of-use",
-  },
-];
+// const secondaryLinks = [
+//   { label: "Github", to: "https://github.com/Limitless Network Finance/" },
+//   { label: "Docs", to: "https://docs.kromatika.finance/" },
+//   {
+//     label: "Bug Bounty",
+//     to: "https://docs.google.com/forms/d/e/1FAIpQLSfdqLrw6xovV95Vr1AbSp5kmcpF41xunCN2VbRXTUj6g6PjIQ/viewform",
+//   },
+//   {
+//     label: "Terms Of Use",
+//     to: "terms-of-use",
+//   },
+// ];
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -73,7 +68,7 @@ const Footer = () => {
             </ul>
           </nav>
           <Socials />
-          <nav className="navbar__nav">
+          {/* <nav className="navbar__nav">
             <ul className="navbar__list">
               {secondaryLinks.map(({ label, to }, i) => (
                 <li className="navbar__item" key={i}>
@@ -85,14 +80,12 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </nav>
+          </nav> */}
         </div>
         <Divider type="horizontal" w="188px" />
         <div className="copyright">
           <h3>Copyright &copy; {currentYear} All rights reserved.</h3>
-          <a href="mailto: contact@kromatika.finance">
-            contact@kromatika.finance
-          </a>
+          
         </div>
       </div>
       <div className="footer-mobile-screen">
@@ -101,7 +94,7 @@ const Footer = () => {
             {menuItems.map(({ icon, label, to, isExternal }, i) =>
               isExternal ? (
                 <li className="navbar__item" key={i}>
-                  <Link href={to}>
+                  {/* <Link href={to}>
                     <a
                       href="https://blog.kromatika.finance/"
                       target="_blank"
@@ -110,7 +103,7 @@ const Footer = () => {
                       {icon}
                       {label}
                     </a>
-                  </Link>
+                  </Link> */}
                 </li>
               ) : (
                 <li className="navbar__item" key={i}>
@@ -127,7 +120,7 @@ const Footer = () => {
                 </li>
               )
             )}
-            {secondaryLinks.map(({ label, to }, i) => (
+            {/* {secondaryLinks.map(({ label, to }, i) => (
               <li className="navbar__item" key={i}>
                 <Link href={to}>
                   <a href={to} target="_blank" rel="noopener noreferrer">
@@ -135,7 +128,7 @@ const Footer = () => {
                   </a>
                 </Link>
               </li>
-            ))}
+            ))} */}
           </ul>
         </nav>
         <Logo path="/" />
@@ -143,12 +136,7 @@ const Footer = () => {
         <Divider type="horizontal" w="188px" />
         <div className="copyright">
           <h3>Copyright &copy; {currentYear} All rights reserved.</h3>
-          <p>
-            Kromatika.Finance is brought to you by{" "}Kromatika DAO & Contributors
-          </p>
-          <a href="mailto: contact@kromatika.finance">
-            contact@kromatika.finance
-          </a>
+          
         </div>
       </div>
     </footer>

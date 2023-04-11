@@ -23,7 +23,7 @@ export default function Home() {
 				<Token />
 				<BUIDLPlan />
 				<HowItWorks />
-				<FAQ />
+				{/* <FAQ /> */}
 				<Brands />
 			</Blur>
 			<Footer />

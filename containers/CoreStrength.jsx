@@ -101,33 +101,33 @@ const CoreStrength = () => {
         </ul>
       </div>
 
-//       <h3 className="subtitle">These are our core building blocks</h3>
-//       <div className="cards-wrapper">
-//         <div className="card">
-//           <div className="card__header">
-//             <figure>
-//               <Image src={audit} alt="" />
-//             </figure>
-//           </div>
-//           <div className="card__body">
-//             <span className="card__title">Secure audited smart contracts</span>
-//             <span className="card__content">
-//               Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor.
-//               <br />
-//               <br />
-//               <Link
-//                 passHref={true}
-//                 href="https://www.certik.com/projects/kromatika"
-//               >
-//                 <a target="_blank" rel="noopener noreferrer">
-//                   here.
-//                 </a>
-//               </Link>
-//             </span>
-//           </div>
-//         </div>
+      {/* <h3 className="subtitle">These are our core building blocks</h3>
+      <div className="cards-wrapper">
+        <div className="card">
+          <div className="card__header">
+            <figure>
+              <Image src={audit} alt="" />
+            </figure>
+          </div>
+          <div className="card__body">
+            <span className="card__title">Secure audited smart contracts</span>
+            <span className="card__content">
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis ex ut mi vehicula placerat vel ac libero. Donec eu libero vel nisl auctor laoreet. Maecenas bibendum nunc in purus dictum, ac ultrices sapien auctor.
+              <br />
+              <br />
+              <Link
+                passHref={true}
+                href="https://www.certik.com/projects/kromatika"
+              >
+                <a target="_blank" rel="noopener noreferrer">
+                  here.
+                </a>
+              </Link>
+            </span>
+          </div>
+        </div>
 
-        {/* <div className="card">
+         <div className="card">
           <div className="card__header">
             <figure>
               <Image src={charts} alt="" />
@@ -151,24 +151,24 @@ const CoreStrength = () => {
               </Link>
             </span>
           </div>
-        </div> */}
+        </div>
 
-//         <div className="card">
-//           <div className="card__header">
-//             <figure>
-//               <Image src={coinKromatika} alt="" />
-//             </figure>
-//           </div>
-//           <div className="card__body">
-//             <span className="card__title">High utility $LNT token</span>
-//             <span className="card__content">
-//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget semper velit. Etiam at sem purus. Fusce ac est euismod, rutrum turpis nec, vestibulum nibh. Integer sollicitudin odio ut quam gravida, nec tincidunt odio posuere. Nullam euismod sagittis augue, in fermentum orci ultricies at. Aenean bibendum laoreet est, eget accumsan erat iaculis vel.
-//               <br />
-              
-//             </span>
-//           </div>
-//         </div>
-      </div>
+        <div className="card">
+          <div className="card__header">
+            <figure>
+              <Image src={coinKromatika} alt="" />
+            </figure>
+          </div>
+          <div className="card__body">
+            <span className="card__title">High utility $LNT token</span>
+            <span className="card__content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget semper velit. Etiam at sem purus. Fusce ac est euismod, rutrum turpis nec, vestibulum nibh. Integer sollicitudin odio ut quam gravida, nec tincidunt odio posuere. Nullam euismod sagittis augue, in fermentum orci ultricies at. Aenean bibendum laoreet est, eget accumsan erat iaculis vel.
+              <br />
+
+            </span>
+          </div>
+        </div>
+      </div> */}
     </section>
   );
 };

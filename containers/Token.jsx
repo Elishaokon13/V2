@@ -48,11 +48,11 @@ const Token = () => {
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1 }}>
-				<h2 className='section-title'>Our Protocol</h2>
+				<h2 className='section-title'>Our Tokenomics</h2>
 			</motion.div>
 			<div className='token'>
 				<div className='token__content'>
-				 <h3> Our Tokenomics</h3>
+				 
 					<p>
 						Our tokenomics are designed to reward holders and incentivize the community to grow the project. We have a 5% buy tax and 8% sell tax. 2% of the buy tax is used for marketing and 2% is used for development. 1% of the buy tax is used for liquidity. 3% of the sell tax is used for marketing and 3% is used for development. 2% of the sell tax is used for liquidity.
 						<br />
@@ -149,7 +149,7 @@ const Token = () => {
 			</div>
 			{/* HOW TO BUY UNDER TOKEN SECTION */}
 			<div className='token'>
-				<motion.div
+				{/* <motion.div
 					initial={{ x: -300 }}
 					whileInView={{
 						x: 0,
@@ -159,10 +159,10 @@ const Token = () => {
 					}}
 					transition={{ duration: 1 }}
 					className='motion-div'>
-					{/* <figure className='token__figure'>
+					 <figure className='token__figure'>
 						<Image src={coinKromatika} alt='Coins' className='token__img' />
-					</figure> */}
-				</motion.div>
+					</figure> 
+				</motion.div> */}
 				<div className='token__content'>
 					<h3>How to buy $LNT?</h3>
 					<p>

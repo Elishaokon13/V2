@@ -5,87 +5,56 @@ import { Accordion } from "../components";
 
 const faqs = [
   {
-    label: "What are $LNT tokenomics?",
-    content: (
+    label: "What are Limitless Network?",
+    content: [
       <>
-        Initially 100M KROM tokens were in existence. Liquidity has been
-        deployed to the Uniswap protocol (original Uniswap LP token is&nbsp;
-        <Link href="https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4">
-          <a target="_blank" rel="noopener noreferrer">
-            burned
-          </a>
-        </Link>
-        ), to Arbitrum, Optimism and Polygon to provide layer 2 liquidity. 20M
-        (20%) is added on Gnosis, a multi-signature wallet.
-      </>
-    ),
+        Limitless network is a decentralized Crypto project with a multi utility infrastructure that enables growth and sustainability in any market condition through scalable mining as well as a automated leverage trading system.
+      </>,
+    ],
   },
   {
-    label: "Is $LNT token a utility token?",
+    label: "What is the mission of this project?",
     content: [
-      "Yes! $LNT is a utility token as it is used to pay the fee for all Limitless Network Finance DEX limit orders and end-to-end usage of gasless mode (optional feature, coming very soon).",
-      "You can also use our swap aggregator, for this you only need to hold ETH in your wallet to cover gasfees. Again use normal or pro-mode to fill out your swap and click swap. Your swap is executed in a heartbeat!",
+      "The mission of Limitless Network is to provide a decentralized infrastructure that enables growth and sustainability in any market condition through scalable mining as well as a automated leverage trading system.",
+      "Limitless network has built a mining facility and our mission is to extend the rewards of mining to our community of $LNT token holders."
     ],
   },
   {
     label: "How do I use Limitless Network Finance DEX?",
     content: [
-      "Connect your wallet. Depending on whether you wish to use the swap or the limit order feature, you will need $ETH and $LNT in your wallet. The interface is just as straightforward as using Uniswap for example, but with our limit order feature. Use normal or pro-mode to set your limit order and click trade. When the market conditions match your order, Limitless Network Finance DEX will execute the trade automatically.",
+      "Limitless Network Finance DEX is a decentralized exchange that allows you to swap tokens. Launch the app and connect your wallet. You can then select the token you wish to swap and the token you wish to receive. You can also select the amount you wish to swap. The app will then calculate the amount you will receive. You can then confirm the transaction and wait for the swap to be processed.",
     ],
   },
+  
   {
-    label: "Why and how much $LNT do I have to pay a fee for limit orders?",
-    content: (
-      <>
-        The fee is dependent on the current gas fee. The maximum fee is
-        calculated as follows: base fee * gas fee * protocol fee. As you can
-        see, we don’t take the amount that is being traded into consideration.
-        This offers you the opportunity to trade at a very interesting, fixed
-        price. Fixed, as in not depending on your amount traded. We refer to
-        our&nbsp;
-        <Link href="https://docs.kromatika.finance/fundamentals/how-it-works/maximum-service-fee">
-          <a target="_blank" rel="noopener noreferrer">
-            docs
-          </a>
-        </Link>
-        &nbsp; for more details on the exact calculation.
-      </>
-    ),
-  },
-  {
-    label: "Is the KROM token code audited?",
+    label: "Is the $LNT token code audited?",
     content: [
-      "Yes! KROM token is a non-mintable ERC 20 token audited by OpenZeppelin, MythX and CertiK.",
+      "Yes! $LNT token is a token deployed to BSC network and  audited by Guardian Audit.",
     ],
   },
   {
     label: "Do I have to own $LNT tokens to use Limitless Network Finance DEX?",
     content: [
-      "Yes and no :) If you wish to use only the swap aggregator, you don’t need to own $LNT. However, if you wish to use our limit order feature, you will need $LNT to cover the service fee.",
+      "Yes and no :) If you wish to use only the swap aggregator, you don’t need to own $LNT.",
     ],
   },
-  {
-    label: "Why do I have to pay a fee for limit orders?",
-    content: [
-      "Limitless Network Finance requires a fee to cover the cost of the trade processor (ChainLink Keepers). When a trade is processed $LNT is deducted from the protocol user’s balance on the dapp and sent to the trade processor to cover the gas cost. Hence, the $LNT tokens are circulating: DEX Liquidity Pool -> User -> Limitless Network Finance Protocol -> DEX Liquidity Pool.",
-    ],
-  },
-  {
-    label: "Is Limitless Network Finance code open-source?",
-    content: (
-      <>
-        Yes! Limitless Network Finances entire codebase is open-sourced and published on&nbsp;
-        <Link href="https://github.com/Limitless Network Finance/">
-          <a target="_blank" rel="noopener noreferrer">
-            Github
-          </a>
-        </Link>
-        &nbsp; under the MIT and GPL-3.0 license. Anybody can see how it was
-        developed, built and who are the code contributors. Developers are
-        encouraged to submit a PR if they are willing to contribute.
-      </>
-    ),
-  },
+
+  // {
+  //   label: "Is Limitless Network Finance code open-source?",
+  //   content: (
+  //     <>
+  //       Yes! Limitless Network Finances entire codebase is open-sourced and published on&nbsp;
+  //       <Link href="https://github.com/Limitless Network Finance/">
+  //         <a target="_blank" rel="noopener noreferrer">
+  //           Github
+  //         </a>
+  //       </Link>
+  //       &nbsp; under the MIT and GPL-3.0 license. Anybody can see how it was
+  //       developed, built and who are the code contributors. Developers are
+  //       encouraged to submit a PR if they are willing to contribute.
+  //     </>
+  //   ),
+  // },
 ];
 
 const FAQ = () => {

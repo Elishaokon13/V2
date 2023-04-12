@@ -8,27 +8,19 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Launching the Limitless Network Finance protocol on Ethereum Mainnet (audit completion).',
+				goal: 'Launching the Limitless Network Finance Community.',
 			},
 			{
 				status: true,
-				goal: 'Enabling Gasless limit trading feature.',
+				goal: 'Release of the Limitless Network Finance protocol.',
 			},
 			{
 				status: true,
-				goal: 'Liquidity farming rewards for KROM liquidity providers on Celer bridge.',
+				goal: 'Release of the Limitless Network Finance website.',
 			},
 			{
 				status: true,
-				goal: 'Launching the KROM token on Uniswap Polygon.',
-			},
-			{
-				status: true,
-				goal: 'Launching the Limitless Network Finance protocol on Arbitrum Layer2 network.',
-			},
-			{
-				status: true,
-				goal: 'Launching new Limitless Network Finance.finance website.',
+				goal: 'Launch of web-based Limitless Network Finance DEX.',
 			},
 		],
 	},
@@ -36,68 +28,57 @@ const quarters = [
 		title: '',
 		goals: [
 			{
-				status: true,
-				goal: 'Launching the Limitless Network Finance protocol on the Polygon network.',
+				status: false,
+				goal: 'Release of the Limitless Network Finance whitepaper.',
 			},
 			{
 				status: false,
-				goal: 'Liquidity farming rewards for Krom liquidity providers on Uniswap on all networks.',
-			},
-			{
-				status: true,
-				goal: 'Adding gasless market swap feature to Limitless Network Finance protocol.',
-			},
-			{
-				status: true,
-				goal: 'CEX listing.',
-			},
-			{
-				status: false,
-				goal: 'Launching KROM-E.',
-			},
+				goal: 'Fairlunch of the $LNT token.',
+			},,
+				
 			{
 				status: true,
 				goal: 'Limitless Network Finance v2 (new features, modern UI, hybrid DEX).',
 			},
 		],
 	},
-	{
-		title: '',
-		goals: [
-			{
-				status: true,
-				goal: 'Limitless Network Finance DAO governance launch',
-			},
-			{
-				status: false,
-				goal: 'Create KROM/OP liquidity pool.',
-			},
-			{
-				status: false,
-				goal: 'Liquidity mining program for KROM/OP.',
-			},
-			{
-				status: true,
-				goal: 'Launch perpetual trading.',
-			},
-			{
-				status: false,
-				goal: 'Launch referral program on Optimism.',
-			},
-			{
-				status: false,
-				goal: 'Gas refund program on Optimism.',
-			},
-			{
-				status: false,
-				goal: 'Implement fiat on-ramp service.',
-			},
-			{
-				status: false,
-				goal: 'Implement cross-chain bridge solution.',
-			},
-		],
-	},
+	// {
+	// 	title: '',
+	// 	goals: [
+	// 		{
+	// 			status: true,
+	// 			goal: 'Limitless Network Finance DAO governance launch',
+	// 		},
+	// 		{
+	// 			status: false,
+	// 			goal: 'Create KROM/OP liquidity pool.',
+	// 		},
+	// 		{
+	// 			status: false,
+	// 			goal: 'Liquidity mining program for KROM/OP.',
+	// 		},
+	// 		{
+	// 			status: true,
+	// 			goal: 'Launch perpetual trading.',
+	// 		},
+	// 		{
+	// 			status: false,
+	// 			goal: 'Launch referral program on Optimism.',
+	// 		},
+	// 		{
+	// 			status: false,
+	// 			goal: 'Gas refund program on Optimism.',
+	// 		},
+	// 		{
+	// 			status: false,
+	// 			goal: 'Implement fiat on-ramp service.',
+	// 		},
+	// 		{
+	// 			status: false,
+	// 			goal: 'Implement cross-chain bridge solution.',
+	// 		},
+	// 	],
+	// },
 ];
 
 const BUIDLPlan = () => {
@@ -110,9 +91,8 @@ const BUIDLPlan = () => {
 				<h2 className='section-title'>BUIDL Plan</h2>
 			</motion.div>
 			<p className={'buidl-plan'}>
-				Limitless Network Finance DAO tasks are visible on Dework - the ultimate Web3 project management tool.
-				All tasks can be undertaken by any web3 contributor, and incentivized in $LNT.
-				You can find the Dework dashboard <a href='https://app.dework.xyz/Limitless Network Finance-dao'> <strong>here</strong>.</a>
+			We will fair launch our project and begin to scale up our mining operation with a bigger location more miners and more efficient energy to maximize facilities growth as well and maximizing the profits to investors.
+We will also utilizing our leverage trading system to help bring sustainability and growth to limitless Network investors.
 			</p>
 			<div className='roadmap container'>
 				{quarters.map((quarter, i) => (

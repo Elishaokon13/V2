@@ -38,7 +38,7 @@ const Footer = () => {
               {menuItems.map(({ icon, label, to, isExternal }, i) =>
                 isExternal ? (
                   <li className="navbar__item" key={i}>
-                    <Link href={to}>
+                    {/* <Link href={to}>
                       <a
                         href="https://blog.kromatika.finance/"
                         target="_blank"
@@ -47,7 +47,7 @@ const Footer = () => {
                         {icon}
                         {label}
                       </a>
-                    </Link>
+                    </Link> */}
                   </li>
                 ) : (
                   <li className="navbar__item" key={i}>

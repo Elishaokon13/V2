@@ -13,7 +13,7 @@ const Logo = ({ path }) => {
 				</figure>
 				<div className='logo__text'>
 					<span>Limitless Network</span>
-					<span>Finance</span>
+					
 				</div>
 			</div>
 		</Link>

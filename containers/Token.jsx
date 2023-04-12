@@ -102,19 +102,21 @@ const Token = () => {
 						<span className='card__title'>Token Taxes</span>
 						<span className='card__content'>
 							<b>
-								Buy Tax: 5%
+								Buy Tax: 6%
 							</b>
 							<p>
-								2% Marketing<br/>
+								1% Marketing<br/>
 								2% Development<br/>
-								1% liquidity
+								1% Holders<br/>
+								2% liquidity
 							</p>
 							<b className='text-bold mb-1.5'>
 								Sell Tax: 8%
 							</b>
 							<p>
-								3% Marketing <br/>
-								3% Development<br/>
+								2% Marketing <br/>
+								2% Development<br/>
+								2% Holders<br/>
 								2% liquidity
 							</p>
 							

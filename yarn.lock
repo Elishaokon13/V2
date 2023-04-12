@@ -1157,6 +1157,33 @@
   resolved "https://registry.npmjs.org/@pedrouid/environment/-/environment-1.0.1.tgz"
   integrity sha512-HaW78NszGzRZd9SeoI3JD11JqY+lubnaOx7Pewj5pfjqWXOEATpeKIFb9Z4t2WBUK2iryiXX3lzWwmYWgUL0Ug==
 
+"@poodl/contract-addresses@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/@poodl/contract-addresses/-/contract-addresses-1.4.0.tgz"
+  integrity sha512-oyKP72zW8HVfZLma5M+75uMXw03YwLBV4NHRCpEs6RgFaoOSiqZYVxwmudh1h4Cj+v/7IYq8G8Nkj4Yfb9M32A==
+
+"@poodl/widget@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/@poodl/widget/-/widget-0.0.3.tgz"
+  integrity sha512-l7kgfEYQLX7ZK7PJsuBuCy5215jccEUBh/OBICxbUiJYXAJBwRrBY1sDUTDa/WbneatEjk4fSv2lAMoidMz6ow==
+  dependencies:
+    "@catconsult/simplify-modal-control" "^1.1.1"
+    "@emotion/react" "^11.0.0"
+    "@emotion/styled" "^11.0.0"
+    "@mui/icons-material" "^5.0.0"
+    "@mui/material" "^5.0.0"
+    "@poodl/contract-addresses" "^1.4.0"
+    bignumber.js "^9.0.0"
+    buffer "^6.0.0"
+    copy-to-clipboard "^3.3.3"
+    ethers "^5.0.0"
+    react "^18.0.0"
+    react-dom "^18.0.0"
+    react-number-format "^5.1.2"
+    react-toastify "^9.0.0"
+    react-window "^1.8.8"
+    wagmi "^0.6.6"
+
 "@popperjs/core@^2.11.6":
   version "2.11.6"
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"

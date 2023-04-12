@@ -1,4 +1,5 @@
 import { BridgesApp } from '@brgx/widget';
+import { PoodlApp } from '@poodl/widget';
 import { Header } from '../components';
 
 export default function Swap() {
@@ -7,7 +8,7 @@ export default function Swap() {
             <Header />
             <h1 className="swap__title">Limitless Network Swap</h1>
             <div className="mt-20 ml-20 text-center justify-center">
-                <BridgesApp />
+                <PoodlApp />
             </div>
         </section>
     );

@@ -240,10 +240,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@brgx/widget@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.npmjs.org/@brgx/widget/-/widget-1.0.7.tgz"
-  integrity sha512-cGihe7uIIGsKDHr0nTJKqz2g9BPi67gq3GhOGMwCqqa6peRNhP7dZpCF4U5XIcA6Xcl5s+NuphPo3xvGJcSGKQ==
+"@brgx/widget@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.npmjs.org/@brgx/widget/-/widget-1.0.9.tgz"
+  integrity sha512-XWU+pwT+J4RC9B72IhHFVGQLaFeXIh2hG/O0SWrrQAVcQi2XWe8zwwC/v5rgRsXABsnOqsp8/hBluLxVPsTJZQ==
   dependencies:
     "@catconsult/simplify-modal-control" "^1.1.1"
     "@emotion/react" "^11.0.0"

@@ -54,7 +54,7 @@ const Token = () => {
 				<div className='token__content'>
 				 
 					<p>
-						Our tokenomics are designed to reward holders and incentivize the community to grow the project. We have a 5% buy tax and 8% sell tax. 2% of the buy tax is used for marketing and 2% is used for development. 1% of the buy tax is used for liquidity. 3% of the sell tax is used for marketing and 3% is used for development. 2% of the sell tax is used for liquidity.
+						Our tokenomics are designed to reward holders and incentivize the community to grow the project. We have a 6% buy tax and 8% sell tax. 1% of the buy tax is used for marketing and 2% is used for development. 2% of the buy tax is used for liquidity and 1% is used for Marketing. 2% of the sell tax is used for marketing and 2% is used for development. 2% of the sell tax is used for liquidity and 2% is used for marketing.
 						<br />
 					</p>	
 				</div>

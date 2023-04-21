@@ -21,7 +21,7 @@ export default function Swap() {
 
         hasTransactonFees: true,
 
-        logoURI: "",
+        logoURI: "https://github.com/Elishaokon13/Limitless-Network-V2/blob/master/assets/images/Logo.png",
 
         name: "Limitless Network Token",
 

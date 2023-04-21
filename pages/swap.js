@@ -1,4 +1,4 @@
-import { BridgesApp } from '@brgx/widget';
+
 import { PoodlApp } from '@poodl/widget';
 import { Header } from '../components';
 
@@ -14,7 +14,7 @@ export default function Swap() {
 
     {
 
-        address: "LNT_CONTRACT",
+        address: "0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD",
 
         chainId: 56,
 

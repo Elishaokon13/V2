@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+Here is the new contract add it to your wallet 0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD
 ## Getting Started
 
 First, run the development server:

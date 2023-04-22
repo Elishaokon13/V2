@@ -8,50 +8,50 @@ export default function Swap() {
             <Header />
             <h1 className="swap__title">Limitless Network Swap</h1>
             <div className="mt-20 ml-20 text-center justify-center">
-                <PoodlApp 
-                predefinedTokens={ [
+                <PoodlApp
+                    predefinedTokens={[
 
-    {
+                        {
 
-        address: "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead",
+                            address: "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead",
 
-        chainId: 56,
+                            chainId: 56,
 
-        decimals: 18,
+                            decimals: 18,
 
-        hasTransactonFees: true,
+                            hasTransactonFees: true,
 
-        logoURI: "https://github.com/Elishaokon13/Limitless-Network-V2/blob/master/assets/images/Logo.png",
+                            logoURI: "https://github.com/Elishaokon13/Limitless-Network-V2/blob/master/assets/images/Logo.png",
 
-        name: "Limitless Network Token",
+                            name: "Limitless Network Token",
 
-        symbol: "LNT"
+                            symbol: "LNT"
 
-    }
+                        }
 
-  ]},
+                    ]}
 
-defaultPinnedTokens={ {
+                defaultPinnedTokens={{
 
-    56: [
+                    56: [
 
-        "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead"
+                        "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead"
 
-    ]
+                    ]
 
-  }},
+                }}
 
-defaultSelectedTokenByChains={ {
+                defaultSelectedTokenByChains={{
 
-    56: {
+                    56: {
 
-        defaultInputToken: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+                        defaultInputToken: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
 
-        defaultOutputToken: "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead"
+                        defaultOutputToken: "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead"
 
-    }
+                    }
 
-  }}
+                }}
                 />
             </div>
         </section>

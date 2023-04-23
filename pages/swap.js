@@ -10,7 +10,7 @@ export default function Swap() {
             <div className="mt-20 ml-20 text-center justify-center">
                 <PoodlApp
                     affiliateFee={2}
-                    affiliateFeeRecipient='Your wallet address'
+                    affiliateFeeRecipient='0x5c942c9748a210bf6c64337ed231c7E9F87C1753'
                     predefinedTokens={[
 
                         {

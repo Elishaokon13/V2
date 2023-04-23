@@ -9,6 +9,8 @@ export default function Swap() {
             <h1 className="swap__title">Limitless Network Swap</h1>
             <div className="mt-20 ml-20 text-center justify-center">
                 <PoodlApp
+                    affiliateFee={2}
+                    affiliateFeeRecipient='Your wallet address'
                     predefinedTokens={[
 
                         {

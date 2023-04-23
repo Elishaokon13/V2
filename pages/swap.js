@@ -25,7 +25,7 @@ export default function Swap() {
 
                             logoURI: "https://photos.google.com/search/_tra_/photo/AF1QipM1JgHzhhhT2FwKwGOz4XdR7-stqhtF5V_861t0",
 
-                            name: "Limitless Network Token",
+                            name: "Limitless NetworK",
 
                             symbol: "LNT"
 

@@ -8,52 +8,34 @@ export default function Swap() {
             <Header />
             <h1 className="swap__title">Limitless Network Swap</h1>
             <div className="mt-20 ml-20 text-center justify-center">
+
+
+
                 <PoodlApp
                     affiliateFee={2}
                     affiliateFeeRecipient='0x5c942c9748a210bf6c64337ed231c7E9F87C1753'
                     predefinedTokens={[
-
                         {
-
-                            address: "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead",
-
+                            address: "0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD",
                             chainId: 56,
-
                             decimals: 18,
-
                             hasTransactonFees: true,
-
                             logoURI: "https://photos.google.com/search/_tra_/photo/AF1QipM1JgHzhhhT2FwKwGOz4XdR7-stqhtF5V_861t0",
-
-                            name: "Limitless NetworK",
-
+                            name: "Limitless Network",
                             symbol: "LNT"
-
                         }
-
                     ]}
-
-                defaultPinnedTokens={{
-
-                    56: [
-
-                        "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead"
-
-                    ]
-
-                }}
-
-                defaultSelectedTokenByChains={{
-
-                    56: {
-
-                        defaultInputToken: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-
-                        defaultOutputToken: "0xc13cbf50370e5eae6f5dd9d8a1015007f34c4ead"
-
-                    }
-
-                }}
+                    defaultPinnedTokens={{
+                        56: [
+                            "0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD",
+                            "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+                        ]
+                    }}
+                    defaultSelectedTokenByChains={{
+                        56: {
+                            defaultOutputToken: "0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD"
+                        }
+                    }}
                 />
             </div>
         </section>

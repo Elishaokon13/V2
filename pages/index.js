@@ -21,8 +21,8 @@ export default function Home() {
 				<Hero />
 				<Qualities />
 				<Token />
+				<HowItWorks />
 				<BUIDLPlan />
-				{/* <HowItWorks /> */}
 				<Brands />
 				<FAQ />
 				

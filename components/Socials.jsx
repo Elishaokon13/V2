@@ -9,7 +9,7 @@ import {
 const socialItems = [
 	{ href: 'https://discord.gg/H4GEW4q7SJ', icon: <FaDiscord /> },
 	{ href: 'https://t.me/limitless_Network_Token', icon: <FaTelegramPlane /> },
-	{ href: 'https://twitter.com/cryptohighrev', icon: <FaTwitter /> },
+	{ href: 'https://twitter.com/Limitless_LNT', icon: <FaTwitter /> },
 	// {
 	// 	href: 'https://www.instagram.com/kromatika.finance/',
 	// 	icon: <FaInstagram />,

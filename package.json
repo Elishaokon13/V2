@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@poodl/widget": "^1.0.3",
+    "@poodl/widget": "^1.1.2",
     "ethers": "5",
     "framer-motion": "^6.3.11",
     "next": "^12.1.6",

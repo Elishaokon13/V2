@@ -12,8 +12,7 @@ export default function Swap() {
 
 
                 <PoodlApp
-                    affiliateFee={2}
-                    affiliateFeeRecipient='0x5c942c9748a210bf6c64337ed231c7E9F87C1753'
+                   
                     predefinedTokens={[
                         {
                             address: "0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD",

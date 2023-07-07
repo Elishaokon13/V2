@@ -20,7 +20,7 @@ const Hero = () => {
             Launch Dapp
           </motion.a>
         </Link>
-        <Link passHref={true} href="#section-token">
+        {/* <Link passHref={true} href="#section-token">
           <motion.a
             className="btn btn-outline"
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
@@ -28,7 +28,7 @@ const Hero = () => {
           >
             Discover $LNT
           </motion.a>
-        </Link>
+        </Link> */}
       </div>
     </section>
   );

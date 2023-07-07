@@ -32,7 +32,7 @@ const quarters = [
 				goal: 'Release of the Limitless Network Finance whitepaper.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Fairlunch of the $LNT token.',
 			},,
 				

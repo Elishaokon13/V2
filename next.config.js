@@ -3,6 +3,7 @@
 const path = require("path");
 
 const nextConfig = {
+  transpilePackages: [ '@poodl/widget' ]
   reactStrictMode: true,
   optimizeFonts: true,
   assetPrefix: ".",

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import whitepaper from ".././assets/pdf/LNT.pdf";
 
 const Hero = () => {
   return (
@@ -20,15 +21,15 @@ const Hero = () => {
             Launch Dapp
           </motion.a>
         </Link>
-        {/* <Link passHref={true} href="#section-token">
+        <Link passHref={true} href="#section-token">
           <motion.a
-            className="btn btn-outline"
+            className="btn btn-solid"
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
             whileTap={{ scale: 0.9 }}
           >
-            Discover $LNT
+            Whitepaper
           </motion.a>
-        </Link> */}
+        </Link>
       </div>
     </section>
   );

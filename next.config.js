@@ -1,24 +1,23 @@
 /** @type {import('next').NextConfig} */
-
-const path = require("path");
+const withTM = require('next-transpile-modules')(['@poodl/widget']);
+const path = require('path');
 
 const nextConfig = {
-  transpilePackages: [ '@poodl/widget' ],
   reactStrictMode: true,
   optimizeFonts: true,
-  assetPrefix: ".",
+  assetPrefix: '.',
   sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
+    includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    domains: ["assets"],
-    formats: ["image/avif", "image/webp"],
+    domains: ['assets'],
+    formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     minimumCacheTTL: 60,
-    loader: "akamai",
-    path: "",
+    loader: 'akamai',
+    path: '',
   },
 };
 
-module.exports = nextConfig;
+module.exports = withTM(nextConfig);

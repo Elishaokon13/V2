@@ -19,7 +19,7 @@ export default function Swap() {
                             chainId: 56,
                             decimals: 18,
                             hasTransactonFees: true,
-                            logoURI: "https://photos.google.com/search/_tra_/photo/AF1QipM1JgHzhhhT2FwKwGOz4XdR7-stqhtF5V_861t0",
+                            logoURI: "https://www.limitlessnetwork.org/_next/static/media/Logo.3a89c1e7.png?imwidth=3840",
                             name: "Limitless Network",
                             symbol: "LNT"
                         }

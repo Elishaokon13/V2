@@ -6,6 +6,7 @@ import { Link as Scroll } from 'react-scroll';
 import { Divider, Logo } from '.';
 import Socials from '../components/Socials';
 
+
 const menuItems = [
 	{ icon: '', label: 'Swap', to: 'section-token', isExternal: false },
 	{ icon: '', label: 'Liquidity', to: 'section-roadmap', isExternal: false },
@@ -77,13 +78,13 @@ const Navbar = () => {
 			</div>
 			<div className='btn-group'>
 				<Web3Button
-					contractAddress="{{0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD}}"
-					action={async (contract) => contract.call("claim")}
-					onSuccess={(result) => alert("Claim Success!")}
-					onError={(error) => alert("Something went wrong!")}
-				>
-					CLAIM
-				</Web3Button>
+      contractAddress="0x593649F70f836565e33f0BCe9af9503c243359B3"
+      action={(contract) => {
+        contract.call("claim")
+      }}
+    >
+      Claim
+    </Web3Button>
 			</div>
 
 			<div className='toggle-menu' onClick={() => setOpen(!open)}>
@@ -125,13 +126,13 @@ const Navbar = () => {
 					</nav>
 					<div className='btn-group'>
 						<Web3Button
-							contractAddress="{{0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD}}"
-							action={async (contract) => contract.call("claim")}
-							onSuccess={(result) => alert("Claim Success!")}
-							onError={(error) => alert("Something went wrong!")}
-						>
-							CLAIM
-						</Web3Button>
+      contractAddress="0x593649F70f836565e33f0BCe9af9503c243359B3"
+      action={(contract) => {
+        contract.call("claim")
+      }}
+    >
+      Claim
+    </Web3Button>
 					</div>
 					<Socials />
 				</div>

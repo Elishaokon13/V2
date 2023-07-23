@@ -1,5 +1,5 @@
 import { ThirdwebProvider } from "@thirdweb-dev/react";
-import "../styles/globals.scss";
+import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -9,7 +9,9 @@ const activeChain = "binance";
 function MyApp({ Component, pageProps }) {
   return (
     <ThirdwebProvider activeChain={activeChain}>
-      <Component {...pageProps} />
+      
+        <Component {...pageProps} />
+    
     </ThirdwebProvider>
   );
 }

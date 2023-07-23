@@ -78,7 +78,7 @@ const Navbar = () => {
 			</div>
 			<div className='btn-group'>
 				<Web3Button
-      contractAddress="0x593649F70f836565e33f0BCe9af9503c243359B3"
+      contractAddress="0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD"
       action={(contract) => {
         contract.call("claim")
       }}
@@ -126,7 +126,7 @@ const Navbar = () => {
 					</nav>
 					<div className='btn-group'>
 						<Web3Button
-      contractAddress="0x593649F70f836565e33f0BCe9af9503c243359B3"
+      contractAddress="0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD"
       action={(contract) => {
         contract.call("claim")
       }}

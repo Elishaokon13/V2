@@ -6,7 +6,7 @@ import { Link as Scroll } from 'react-scroll';
 import { ethers } from 'ethers';
 import { Divider, Logo } from '.';
 import Socials from '../components/Socials';
-import Claim from './claim'
+import Claim from './Claim'
 
 const menuItems = [
   { icon: '', label: 'Swap', to: 'section-token', isExternal: false },

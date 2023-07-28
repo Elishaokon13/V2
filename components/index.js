@@ -11,4 +11,4 @@ export { default as StatusBar } from './StatusBar';
 export { default as Tile } from './Tile';
 export { default as Seo } from './Seo';
 export { default as Header } from './Header';
-export { default as Claim } from './claim'
+// export { default as Claim } from './claim'

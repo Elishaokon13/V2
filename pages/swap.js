@@ -1,4 +1,3 @@
-
 import { PoodlApp } from '@poodl/widget';
 import { Header } from '../components';
 

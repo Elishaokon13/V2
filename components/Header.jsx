@@ -16,7 +16,8 @@ const menuItems = [
 ];
 
 const Header= () => {
-
+  const [open, setOpen] = useState(false);
+  
   return (
     <header className='padding-x' style={{ height: '107px', width: '100%' }}>
       <div className='navbar'>

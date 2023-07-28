@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Web3Button from "@thirdweb-dev/react";
+import { Web3Button } from "@thirdweb-dev/react";
 import dayjs from 'dayjs';
 import Cookies from 'js-cookie';
 

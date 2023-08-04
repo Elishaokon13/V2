@@ -17,7 +17,7 @@ const menuItems = [
 const cta = [
 	{
 		label: 'Launch Dapp',
-		to: '/swap',
+		to: 'https://app.limitlessnetwork.org/',
 		isExternal: true,
 		className: 'btn btn-solid',
 	},

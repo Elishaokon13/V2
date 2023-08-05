@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const withTM = require('next-transpile-modules')(['@poodl/widget']);
 const path = require('path');
 
 const nextConfig = {
@@ -13,11 +12,12 @@ const nextConfig = {
     domains: ['assets'],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    contentSecurityPolicy: "default-src 'self'; script-src 'self';",
     minimumCacheTTL: 60,
     loader: 'akamai',
     path: '',
   },
 };
 
-module.exports = withTM(nextConfig);
+module.exports = nextConfig;
+

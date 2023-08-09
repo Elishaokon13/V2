@@ -29,7 +29,8 @@ const Rewards = () => {
 						<span className='card__content'>
 							<p>
 								The first Tier is the most basic one, where you can earn rewards by simply holding LNT tokens in your wallet. Hold LNT AND EARN BNB. The rewards are distributed daily from transactions and bi weekly from the LNT mining Facility.
-						</span>
+						        </p>
+							</span>
 						{/* <Link href='https://docs.kromatika.finance/'>
 							<a
 								className='btn btn-solid btn-block'

@@ -28,7 +28,7 @@ const Rewards = () => {
 						<span className='card__title'>Tier 1 Rewards</span>
 						<span className='card__content'>
 							<p>
-								The first Tier is the most basic one, where you can earn rewards by simply holding LNT tokens in your wallet. Hold LNT AND EARN BNB. The rewards are distributed daily from transactions and bi weekly from the LNT mining Facility.
+								The first Tier is the most basic one, where you can earn rewards by holding LNT tokens in your wallet. Hold LNT AND EARN BNB. The rewards are distributed daily from transactions and bi-weekly from the LNT Mining Facility.
 						        </p>
 							</span>
 						{/* <Link href='https://docs.kromatika.finance/'>
@@ -50,8 +50,7 @@ const Rewards = () => {
 						<span className='card__title'>Tier 2 Rewards</span>
 						<span className='card__content'>
 							<p>
-								The second Tier is a bit more advanced. By holding 10m LNT tokens and reinvesting your rewards 
-You will earn a higher yield that compounds as your reinvest. 
+								The second Tier is a bit more advanced. By holding 10m LNT tokens and reinvesting your rewards, you will earn a higher yield that compounds as you reinvest. 
 							</p>
 						</span>
 						

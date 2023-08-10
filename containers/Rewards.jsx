@@ -28,7 +28,7 @@ const Rewards = () => {
 						<span className='card__title'>Tier 1 Rewards</span>
 						<span className='card__content'>
 							<p>
-								The first Tier is the most basic one, where you can earn rewards by holding LNT tokens in your wallet. Hold LNT AND EARN BNB. The rewards are distributed daily from transactions and bi-weekly from the LNT Mining Facility.
+								The first Tier is the most basic one, where you can earn rewards by simply holding LNT tokens in your wallet. Hold LNT AND EARN BNB. The rewards are distributed daily from transactions and bi weekly from the LNT mining Facility
 						        </p>
 							</span>
 						{/* <Link href='https://docs.kromatika.finance/'>
@@ -50,7 +50,8 @@ const Rewards = () => {
 						<span className='card__title'>Tier 2 Rewards</span>
 						<span className='card__content'>
 							<p>
-								The second Tier is a bit more advanced. By holding 10m LNT tokens and reinvesting your rewards, you will earn a higher yield that compounds as you reinvest. 
+								The second Tier is a bit more advanced. By holding 20M+ LNT tokens and reinvesting your rewards 
+You will earn a higher yield from the mining facility that compounds as you reinvest. 
 							</p>
 						</span>
 						
@@ -65,7 +66,7 @@ const Rewards = () => {
 						<span className='card__title'>3rd Tier Rewards</span>
 						<span className='card__content'>
 							<p>
-								Hold on, we’re not done yet. The 3rd Tier requires you to provide liquidity with 30m tokens, this allows you to make the highest earnings paid back in the form of LP tokens, as well as earning via all transactions made.
+								Hold on, we’re not done yet. The 3rd Tier requires you to hold  50M+ LNT tokens, and reinvest your rewards this allows you to make the highest earnings from the mining facility that will also compound as you reinvest.
 							</p>
 						</span>
 						

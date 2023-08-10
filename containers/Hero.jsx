@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="section-hero" className="hero">
       <h1 className="hero__title">Limitless Network Finance</h1>
       <p className="hero__subtitle">
-      The Gold Standard of Crypto
+      The Gold Standard of Crypto <br/>
       Enables easy, inclusive, and cost-effective DEX trading across different chains.
       </p>
       <div className="btn-group">

@@ -18,24 +18,13 @@ const Rewards = () => {
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1 }}>
 				<h2 className='section-title'>Reward Tiers</h2>
-				<span className='card__title'>Note</span>
-				<span className='card__content'>
-							<p>
-								LNT investors are not penalized by sells, buy-backs, or wallet-redistributions and transfers. 
-						        </p>
-			        </span>
-				<span className='card__title'>Disclaimer:</span>
-				<span className='card__content'>
-							<p>
-								Reward benefits from reward Tiers 1,2 and 3 may be subject to change based amount of holders and total profits generated from the limitless Network mining facility.
-						        </p>
-				</span>
+				
 			</motion.div>
 			<div className='cards-wrapper'>
 				<div className='card'>
-					<figure>
+					{/* <figure>
 						<Image src={Scene_BluePurpleGold_Farming} alt='' />
-					</figure>
+					</figure> */}
 					<div className='card__body'>
 						<span className='card__title'>Tier 1 Rewards</span>
 						<span className='card__content'>

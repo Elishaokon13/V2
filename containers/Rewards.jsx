@@ -20,7 +20,27 @@ const Rewards = () => {
 				<h2 className='section-title'>Reward Tiers</h2>
 				
 			</motion.div>
-			      
+			<div className='card'>
+					{/* <figure>
+						<Image src={Scene_BluePurpleGold_Farming} alt='' />
+					</figure> */}
+					<div className='card__body'>
+						<span className='card__title'>Tier 1 Rewards</span>
+						<span className='card__content'>
+							<p>
+								The first Tier is the most basic one, where you can earn rewards by simply holding LNT tokens in your wallet. Hold LNT AND EARN BNB. The rewards are distributed daily from transactions and bi weekly from the LNT mining Facility
+						        </p>
+							</span>
+						{/* <Link href='https://docs.kromatika.finance/'>
+							<a
+								className='btn btn-solid btn-block'
+								target='_blank'
+								rel='noopener noreferrer'>
+								Let’s go
+							</a>
+						    </Link> */}
+					</div>
+	                 </div>
 			<div className='cards-wrapper'>
 				<div className='card'>
 				        <figure>

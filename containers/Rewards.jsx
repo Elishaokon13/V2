@@ -20,11 +20,12 @@ const Rewards = () => {
 				<h2 className='section-title'>Reward Tiers</h2>
 				
 			</motion.div>
+			      
 			<div className='cards-wrapper'>
 				<div className='card'>
-					{/* <figure>
+				        <figure>
 						<Image src={Scene_BluePurpleGold_Farming} alt='' />
-					</figure> */}
+					</figure>
 					<div className='card__body'>
 						<span className='card__title'>Tier 1 Rewards</span>
 						<span className='card__content'>
@@ -39,7 +40,7 @@ const Rewards = () => {
 								rel='noopener noreferrer'>
 								Let’s go
 							</a>
-						</Link> */}
+						    </Link> */}
 					</div>
 				</div>
 

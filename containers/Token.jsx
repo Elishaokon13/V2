@@ -67,9 +67,9 @@ const Token = () => {
 					whileInView={{ opacity: 1 }}
 					transition={{ duration: 1 }}
 					className='card'>
-					<figure>
+					{/* <figure>
 						<Image src={circulatingSupply} alt='' />
-					</figure>
+					</figure> */}
 					<div className='card__overlay'>
 						<span className='card__title'>Circulating Supply</span>
 						<span className='card__content'>

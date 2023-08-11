@@ -20,6 +20,7 @@ const Rewards = () => {
 				<h2 className='section-title'>Reward Tiers</h2>
 				
 			</motion.div>
+		<div className='cards-wrapper'>
 			<div className='card'>
 					{/* <figure>
 						<Image src={Scene_BluePurpleGold_Farming} alt='' />
@@ -41,6 +42,7 @@ const Rewards = () => {
 						    </Link> */}
 					</div>
 	                 </div>
+		</div>
 			<div className='cards-wrapper'>
 				<div className='card'>
 				        <figure>

@@ -2,6 +2,9 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { images } from '../constants/images';
+import CopyContractAddressButton from '../components/CopyContractAddressButton';
+
+const contractAddress = '0x0a8c1d9f6b1c6d2b1f4c9a4c2a8f8f4f5b4c3f95';
 
 const {
 	metamaskLogo,
@@ -25,15 +28,7 @@ const Token = () => {
 				<h2 className='section-title'>Our Protocol</h2>
 			</motion.div>
 			<div className='token'>
-				{/* <motion.div
-					initial={{ x: -100 }}
-					whileInView={{ x: 0 }}
-					transition={{ duration: 1 }}
-					className='motion-div'>
-					 <figure className='token__figure'>
-						<Image src={coinsKromatika} alt='Coins' className='token__img' />
-					</figure>
-				</motion.div> */}
+				
 				<div className='token__content'>
 					<h3>What is Limitless Network?</h3>
 					<p>
@@ -123,48 +118,11 @@ const Token = () => {
 						</span>
 					</div>
 				</motion.div>
-				{/* <motion.div
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ duration: 1 }}
-					className='card'>
-					<figure>
-						<Image src={goldLock} alt='' />
-					</figure>
-					<div className='card__overlay'>
-						<span className='card__title'>Increased security</span>
-						<span className='card__content'>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
-								<Link href='https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'>
-									<a target='_blank' rel='noopener noreferrer'>
-										here.
-									</a>
-								</Link>
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in malesuada quam. Praesent a aliquam sapien. Vestibulum tincidunt tellus vitae neque pellentesque congue. Sed commodo leo a sapien tincidunt sollicitudin. In eu commodo justo
-							</p>
-						</span>
-					</div>
-				</motion.div> */}
+				
 			</div>
 			{/* HOW TO BUY UNDER TOKEN SECTION */}
 			<div className='token'>
-				{/* <motion.div
-					initial={{ x: -300 }}
-					whileInView={{
-						x: 0,
-						scale: [1, 2, 2, 1, 1],
-						rotate: [0, 0, 150, 200, 0],
-						borderRadius: ['20%', '20%', '50%', '50%', '20%'],
-					}}
-					transition={{ duration: 1 }}
-					className='motion-div'>
-					 <figure className='token__figure'>
-						<Image src={coinKromatika} alt='Coins' className='token__img' />
-					</figure> 
-				</motion.div> */}
+				
 				<div className='token__content'>
 					<h3>How to buy $LNT?</h3>
 					<p>
@@ -193,6 +151,7 @@ const Token = () => {
 							Buy $LNT
 						</motion.a>
 					</Link>
+					<CopyContractAddressButton contractAddress={contractAddress} />
 					<div className='token'>
 						<div className='token__content'>
 							<h3 className='mt-8'>NOTE:</h3>

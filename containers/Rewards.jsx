@@ -18,9 +18,8 @@ const Rewards = () => {
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1 }}>
 				<h2 className='section-title'>Reward Tiers</h2>
-				
 			</motion.div>
-			      
+			
 			<div className='cards-wrapper'>
 				<div className='card'>
 				        <figure>

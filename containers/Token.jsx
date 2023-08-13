@@ -38,9 +38,9 @@ const Token = () => {
 					<h3>What is Limitless Network?</h3>
 					<p>
 						Limitless network is a decentralized Crypto project with a multi utility infrastructure that enables growth and sustainability in any market condition through scalable mining as well as a automated leverage trading system. &nbsp;
-						
+
 						<br />
-						
+
 					</p>
 				</div>
 			</div>
@@ -52,11 +52,11 @@ const Token = () => {
 			</motion.div>
 			<div className='token'>
 				<div className='token__content'>
-				 
+
 					<p>
 						Our tokenomics are designed to reward holders and incentivize the community to grow the project. We have a 6% buy tax and 8% sell tax. 1% of the buy tax is used for marketing and 2% is used for development. 2% of the buy tax is used for liquidity and 1% is used for holders. 2% of the sell tax is used for marketing and 2% is used for development. 2% of the sell tax is used for liquidity and 2% is used for holders.
 						<br />
-					</p>	
+					</p>
 				</div>
 			</div>
 			{/* CARDS UNDER TOKEN SECTION */}
@@ -105,21 +105,21 @@ const Token = () => {
 								Buy Tax: 6%
 							</b>
 							<p>
-								1% Marketing<br/>
-								2% Development<br/>
-								1% Holders<br/>
+								1% Marketing<br />
+								2% Development<br />
+								1% Holders<br />
 								2% liquidity
 							</p>
 							<b className='text-bold mb-1.5'>
 								Sell Tax: 8%
 							</b>
 							<p>
-								2% Marketing <br/>
-								2% Development<br/>
-								2% Holders<br/>
+								2% Marketing <br />
+								2% Development<br />
+								2% Holders<br />
 								2% liquidity
 							</p>
-							
+
 						</span>
 					</div>
 				</motion.div>
@@ -180,88 +180,7 @@ const Token = () => {
 						Fantom and BSC.
 					</p>
 
-					{/* <ul>
-						<li>
-							<figure>
-								<Image
-									src={metamaskLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to buy $LNT using the Ethereum mainnet (via &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FXHJSQgGUDFPHD7VBeXho%2FKrom_guide_-_Mainnet.pdf?alt=media&token=23e4fb30-b570-46ff-b242-97f67506a50b'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Mainnet Ethereum
-									</a>
-								</Link>
-								)?
-							</p>
-						</li>
-						<li>
-							<figure>
-								<Image
-									src={optimismLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to add &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FM25inSyXdPgxhiccP2H7%2FKrom_guide_-_Optimism.pdf?alt=media&token=d871ef22-7715-4f5d-94e0-098b08651feb'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Optimism
-									</a>
-								</Link>
-								&nbsp; to & buy $LNT using metamask?
-							</p>
-						</li>
-						<li>
-							<figure>
-								<Image
-									src={arbitrumLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to add &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FfVZC2Pa4XlW9k3Doh1GJ%2FKrom_guide_-_Arbitrum.pdf?alt=media&token=3ab51ac2-0348-4c47-87e6-2298d7ee0249'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Arbitrum
-									</a>
-								</Link>
-								&nbsp; to & buy $LNT using metamask?
-							</p>
-						</li>
-						<li>
-							<figure>
-								<Image
-									src={polygonLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to add &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FueqXnDg62spA7tRp0Yau%2FKrom_guide_-_Polygon.pdf?alt=media&token=1e538bcb-0ecb-48b0-8b1d-b45e23d12e20'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Polygon
-									</a>
-								</Link>
-								&nbsp; to & buy $LNT using metamask? (guide coming soon)
-							</p>
-						</li>
-					</ul> */}
+
 					<Link
 						passHref={true}
 						href='/swap'>
@@ -274,6 +193,16 @@ const Token = () => {
 							Buy $LNT
 						</motion.a>
 					</Link>
+					<div className='token'>
+						<div className='token__content'>
+							<h3 className='mt-8'>NOTE:</h3>
+							<p>
+								LNT investors are not penalized by sells, buy-backs, or wallet-redistributions and transfers.
+								<br />
+								<strong>Disclaimer: Reward benefits from reward Tiers 1,2 and 3 may be subject to change based amount of holders and total profits generated from the limitless Network mining facility</strong>
+							</p>						
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

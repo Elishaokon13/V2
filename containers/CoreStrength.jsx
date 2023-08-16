@@ -52,7 +52,7 @@ const CoreStrength = () => {
               MetaDEX Aggregator, to execute your trade.
             </p>
           </li> */}
-          <li>
+          {/* <li>
             <figure>
               <Image
                 src={coinKromatika}
@@ -67,22 +67,8 @@ const CoreStrength = () => {
                 automatically processed, decentralized limit orders.
               </strong>
             </p>
-          </li>
-          {/* <li>
-            <figure>
-              <Image
-                src={coinKromatika}
-                alt=""
-                layout="fixed"
-                width="32px"
-                height="32px"
-              />
-            </figure>
-            <p>
-              <strong>additional LP fees</strong> on your filled limit orders
-              (FELO). Up to 9% depending on volatility of trading pair.
-            </p>
           </li> */}
+          
           <li>
             <figure>
               <Image

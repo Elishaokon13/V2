@@ -36,7 +36,7 @@ const Brands = () => {
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
 					transition={{ duration: 1 }}>
-					<h2 className='brands__title'>Built On</h2>
+					<h2 className='brands__title'>Our DEX Supports</h2>
 				</motion.div>
 				<div className='brands__links'>
 					{buildOn.map(({ href, logo }, index) => (

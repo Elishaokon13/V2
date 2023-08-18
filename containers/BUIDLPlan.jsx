@@ -91,7 +91,7 @@ const BUIDLPlan = () => {
 				<h2 className='section-title'>BUIDL Plan</h2>
 			</motion.div>
 			<p className={'buidl-plan'}>
-			We will fair launch our project and begin to scale up our mining operation with a bigger location and additional miners. Our focus is using more efficient energy to help maximize our facilities growth as well as, maximizing the profits to our investors. In addition, we will be utilizing our leverage trading system to help bring continued sustainability and growth to the Limitless Network invested community.
+			We will fair launch our project and begin to scale up our mining operation with a bigger location and additional miners. Our focus is using more efficient energy to help maximize our facilities growth as well as, maximizing the profits to our investors. In addition, we will be utilizing our leverage trading system to help bring continued sustainability and growth to the Limitless Network investors community.
 			</p>
 			<div className='roadmap container'>
 				{quarters.map((quarter, i) => (

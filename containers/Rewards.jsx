@@ -66,7 +66,7 @@ const Rewards = () => {
 						<span className='card__title'>3rd Tier Rewards</span>
 						<span className='card__content'>
 							<p>
-								Hold on, we’re not done yet. The 3rd Tier requires you to hold  50M+ LNT tokens, and reinvest your rewards this allows you to make the highest earnings from the mining facility that will also compound as you reinvest.
+								Hold on, we’re not done yet. The 3rd Tier requires you to hold  50M+ LNT tokens, and reinvest your rewards. This allows you to make the highest earnings from the mining facility that will also compound as you reinvest.
 							</p>
 						</span>
 						

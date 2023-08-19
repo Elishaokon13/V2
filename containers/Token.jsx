@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { images } from '../constants/images';
 import CopyContractAddressButton from '../components/CopyContractAddressButton';
 
-const contractAddress = '0x0a8c1d9f6b1c6d2b1f4c9a4c2a8f8f4f5b4c3f95';
+const contractAddress = '0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD';
 
 const {
 	metamaskLogo,

@@ -164,7 +164,7 @@ const Token = () => {
 									LNT investors are not penalized by sells, buy-backs, or wallet-redistributions and transfers.
 									<br />
 									<br />
-									<strong>Disclaimer:</strong><br /> Reward benefits from reward Tiers 1,2 and 3 may be subject to change based amount of holders and total profits generated from the limitless Network mining facility.
+									<strong>Disclaimer:</strong><br /> Reward benefits from reward Tiers 1, 2 and 3 may be subject to change based amount of holders and total profits generated from the limitless Network mining facility.
 								</p>
 							</div>
 						</div>

@@ -159,7 +159,7 @@ const Token = () => {
 					
 						<div className='token'>
 							<div className='token__content'>
-								<h3 className='mt-8'>NOTE:</h3>
+								
 								<p>
 									LNT investors are not penalized by sells, buy-backs, or wallet-redistributions and transfers.
 									<br />

@@ -22,13 +22,13 @@ const Hero = () => {
             Launch Dapp
           </motion.a>
         </Link>
-        <Link passHref={true} href="https://app.limitlessnetwork.org/">
+        <Link passHref={true} href="https://limitless-network.gitbook.io/whitepaper">
           <motion.a
             className="btn btn-solid"
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
             whileTap={{ scale: 0.9 }}
           >
-            Claim Rewards
+            Read Whitepaper
           </motion.a>
         </Link>
       </div>

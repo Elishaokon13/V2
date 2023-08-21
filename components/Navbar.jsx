@@ -11,6 +11,7 @@ const menuItems = [
 	{ icon: '', label: 'BUIDL Plan', to: 'section-roadmap', isExternal: false },
 	{ icon: '', label: 'About', to: 'section-fundamentals', isExternal: false },
 	{ icon: '', label: 'FAQ', to: 'section-faq', isExternal: false },
+	{ icon: '', label: 'Whitepaper', to: 'https://limitless-network.gitbook.io/whitepaper', isExternal: true },
 	
 ];
 

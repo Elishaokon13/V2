@@ -28,7 +28,7 @@ const quarters = [
 		title: '',
 		goals: [
 			{
-				status: false,
+				status: true,
 				goal: 'Release of the Limitless Network Finance whitepaper.',
 			},
 			{

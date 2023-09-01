@@ -35,7 +35,7 @@ const faqs = [
   {
     label: "Do I have to own $LNT tokens to use Limitless Network Finance DEX?",
     content: [
-      "Yes and no :) If you wish to use only the swap aggregator, you don’t need to own $LNT.",
+      "Holding $LNT is not required to use the DEX. We encourage both, to receive the full experience of LNT’s solution and reward system.",
     ],
   },
 

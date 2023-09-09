@@ -141,7 +141,7 @@ const Token = () => {
 					<div className='btn-group'>
 						<Link
 							passHref={true}
-							href='/swap'>
+							href='https://app.limitlessnetwork.org/swap'>
 							<motion.a
 								className='btn btn-solid'
 								target='_blank'

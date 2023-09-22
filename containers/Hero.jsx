@@ -11,7 +11,7 @@ const Hero = () => {
       Enables easy, inclusive, and cost-effective DEX trading across different chains.
       </p>
       <div className="btn-group">
-        <Link passHref={true} href="https://app.limitlessnetwork.org/swap">
+        <Link passHref={true} href="https://swap.limitlessnetwork.org">
           <motion.a
             className="btn btn-solid"
             target="_blank"
